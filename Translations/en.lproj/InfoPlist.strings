@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Next Step";
+"NSBluetoothPeripheralUsageDescription" = "Encounters are recognized via Bluetooth, in the Background and energy-saving";
+"NSBluetoothAlwaysUsageDescription" = "Encounters are recognized via Bluetooth, in the Background and energy-saving";

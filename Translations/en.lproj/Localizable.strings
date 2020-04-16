@@ -1,0 +1,359 @@
+
+/*Name der App*/
+"app_name" = "Next Step";
+
+/*App Name unter Icon (iOS)*/
+/*Fuzzy*/
+"CFBundleDisplayName" = "Next Step";
+
+/*Title of the menu item home*/
+"menu_item_home" = "Home";
+
+/*Title of the menu item info*/
+"menu_item_info" = "Info";
+
+/*Title of the menu item tracking*/
+"menu_item_tracking" = "Tracing";
+
+/*Loading View: Erneut laden*/
+"loading_view_reload" = "Reload";
+
+/*Loading View: Titel*/
+"loading_view_error_title" = "Error";
+
+/*Text on grant permission button*/
+"grant_permission_button" = "Grant permission";
+
+/*Text on grant permission button if permission is granted*/
+"granted_permission_button" = "Permission granted";
+
+/*Sprachen-Key*/
+"language_key" = "en";
+
+/*Force Update Alert Titel*/
+"force_update_title" = "Update";
+"homescreen_handshakes_module_count_info_label" = "Encounters are anonymously stored on your device";
+"homescreen_handshakes_module_count_label_format" = "{count} last 48 hours";
+"homescreen_handshakes_module_info_label" = "Here you'll see when users you've encountered inform about COVID-19.";
+
+/*Informieren Titel*/
+"inform_title" = "Stop the chain of infection";
+
+/*Inform Subtext*/
+"inform_subtext" = "I want to help break the COVID-19 chain of infection";
+
+/*Inform: Symptome Button*/
+"inform_button_symptom_title" = "Symptoms";
+
+/*Inform: Symptome Button*/
+"inform_button_symptom_text" = "I have Symptoms";
+
+/*Inform: Button Titel*/
+"inform_button_positive_title" = "Positive test result";
+
+/*Inform Button Positiv*/
+"inform_button_positive_text" = "I was recently tested positive";
+"what_to_do_button" = "What to do";
+"homescreen_handshakes_module_gemeldet_label" = "An encounter you have recently met has informed about COVID-19";
+
+/*Inform-Flow*/
+"inform_continue_button" = "Next";
+
+/*Informieren: Positive Testergebnis*/
+"inform_positive_long_text" = "I have recently tested positive for COVID-19. \n\nI want to stop a potential infection chain by allowing the app to anonymously contact people who were recently close by.";
+
+/*Ich leide an einem oder mehreren der folgenden Symptome:*/
+"inform_symptom_starttext" = "I suffer from one or more of the following symptoms:";
+
+/*Informieren: Senden Button*/
+"inform_send_button_title" = "Send";
+
+/*Informieren: Senden Text Symptome*/
+"inform_symptoms_send_text" = "I suffer from the previously listed symptoms which can be attributed to COVID-19.\n\nI want to stop a potential infection chain by allowing the app to anonymously contact people who were recently close by.";
+
+/*Informieren: Danke*/
+"inform_send_thankyou" = "THANK YOU!";
+"inform_send_thankyou_text" = "Your information was transmitted. You're making an important contribution to keeping the spread of COVID-19 at bay.";
+
+/*Symptome*/
+"inform_symptom_coughdry" = "Cough (mostly dry)";
+
+/*Symptom*/
+"inform_symptom_hals" = "Sore throat";
+
+/*Symptom*/
+"inform_symptom_kurzatmigkeit" = "Shortness of breath";
+
+/*Symptom*/
+"inform_symptom_fieber" = "Fever";
+
+/*Symptom*/
+"inform_symptom_muskel" = "Muscle pain";
+
+/*Symptome*/
+"inform_no_symptom" = "None of the listed symptoms";
+
+/*Text in toast when downloading pdf*/
+"downloading_pdf" = "Downloading PDF";
+
+/*Inform: Empfehlung*/
+"inform_empfehlung" = "Recommendation";
+
+/*Inform: Empfehlung Text*/
+"inform_empfehlung_subtext" = "A medical check up or lab test is currently not advised. \n\nPlease continue to practice protective hygiene measures and follow the advised behavior rules.";
+
+/*Inform: Button Titel*/
+"inform_fertig_button_title" = "Finish";
+
+/*CSV wird heruntergeladen*/
+"downloading_csv" = "Downloading CSV";
+"handshakes_heading_homescreen" = " ";
+"handshakes_title_homescreen" = "Encounters";
+"inform_heading_homescreen" = " ";
+"inform_title_homescreen" = "Suspicion of COVID-19";
+"inform_text_homescreen" = "Inform users you've recently encountered if you experience symptoms or if you've tested positive for COVID-19";
+"inform_button_title" = "Inform now";
+"inform_button_title_again" = "Inform again";
+"inform_last_meldung_text" = "last successful signal";
+
+/*Erstes Tab*/
+"tab_theapp_title" = "The App";
+
+/*Tab Titel*/
+"tab_aktuell_title" = "Current";
+
+/*Tab Titel*/
+"tab_verhalten_title" = "Behavior";
+
+/*Tab Titel*/
+"tab_prinzip_title" = "Principle";
+
+/*Abbrechen*/
+"cancel" = "Cancel";
+
+/*Schliessen*/
+"close" = "Close";
+
+/*App Name ohne COVID-19*/
+"app_name_star" = "STAR";
+
+/*Info Text ohne COVID-19*/
+"homescreen_handshakes_module_info_label_star" = "There are currently no signals of other users thate were recently close by.";
+
+/*Text bei aktivierung ohne COVID-19*/
+"homescreen_handshakes_module_gemeldet_label_star" = "A user who was recently close by has sent out a signal.";
+
+/*Informieren Titel ohne COVID-19*/
+"inform_title_homescreen_star" = "Broadcast";
+
+/*Informieren Info Text ohne COVID-19*/
+"inform_text_homescreen_star" = "Send a signal to all users who you've recently encountered";
+
+/*Übertitel für Broadcast ohne COVID-19*/
+"inform_heading_homescreen_star" = " ";
+
+/*Titel für Broadcast Screen ohne COVID-19*/
+"inform_broadcast_title_star" = "Broadcast";
+
+/*Text für Broadcast ohne COVID-19*/
+"inform_broadcast_long_text_star" = "Send a signal to all users who were recently near you. Positional or private data is not published or shared with anyone in this process.";
+
+/*Danke Text ohne COVID-19*/
+"inform_send_thankyou_text_star" = "You've signaled all users who've recently been near you. Positional or private data was not published or shared with anyone in this process.";
+
+/*Begegnungen*/
+"begegnungen_counter_title" = "Synchronisation";
+"inform_meldung_time" = "Report  from {date}";
+"homescreen_inform_module_gemeldet_label_star" = "You have sent a signal to all users you have met recently";
+"homescreen_inform_module_gemeldet_label" = "You have informed all users you have met recently";
+
+/*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
+"push_exposed_title" = "Update available";
+
+/*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
+"push_exposed_text" = "Please open the app for more information.";
+"onboarding_top_label_how" = "How does it work:";
+"onboarding_title_1" = "One step ahead";
+"onboarding_desc_1" = "With the Next Step application we can all cooperate to keep the spread of COVID-19 at bay. The Next Step application allows people who have become infected to start isolating before they experience first symptoms.";
+"onboarding_title_2" = "Automatic and\nanonymous";
+"onboarding_desc_2" = "This app recognizes encounters with other users and saves these encounters anonymously on your device using encryption.";
+"onboarding_title_3" = "Inform";
+"onboarding_desc_3" = "If you test positive you can anonymously inform everyone you've encountered so that they can make the necessary precautionary measures.";
+"onboarding_title_4" = "Authorization";
+"onboarding_desc_4" = "This app needs the following permissions in order to work properly.";
+"onboarding_title_5" = "Next Step";
+"onboarding_desc_5" = "Together we can move towards lifting isolation.";
+"onboarding_android_location_permission_info" = "User tracing is performed using Bluetooth Low Energy technology. The app requires you to keep Bluetooth enabled in order to perform the tracing. On Android, applications need to additionally have Location Services enabled by design in order to access Bluetooth. But we will not at any point access your location.";
+"onboarding_android_battery_saving_info" = "Turn off battery optimization for our app so that we can perform continuous tracing in the background.";
+"button_permission_location_android" = "Allow tracing";
+"button_permission_location_granted_android" = "Tracing allowed";
+"button_ok" = "ok";
+"activate_bluetooth_button" = "Activate Bluetooth";
+"activate_push_button" = "Activate Push";
+"bluetooth_activated_label" = "Bluetooth activated";
+"push_activated_label" = "Push activated";
+"onboarding_continue_button" = "Next";
+"onboarding_continue_without_button" = "Continue without authorization";
+"onboarding_continue_without_popup_text" = "Do you really want to continue? The App can only work with the required permissions.";
+"onboarding_continue_without_popup_abort" = "Cancel";
+"onboarding_continue_without_popup_continue" = "Continue";
+"onboarding_finish_button" = "Finish";
+"button_battery_optimization" = "Deactivate battery optimization";
+"button_battery_optimization_deactivated" = "Activate battery optimization";
+
+/*Gleicher Inhalt wie homescreen_handshakes_module_info_label, aber ohne Symptome*/
+"homescreen_handshakes_module_info_label_nosymptoms" = "Here you will be informed, if one of your encounters has been positively tested on COVID-19.";
+
+/*Siehe inform_text_homescreen*/
+"inform_text_homescreen_nosymptoms" = "Inform your encounters, if you have been positively tested on COVID-19.";
+
+/*Unerwarteter Fehler*/
+"unexpected_error_title" = "an unknown Error has occurred.";
+
+/*Bluetooth Fehlermeldung*/
+"bluetooth_turned_off" = "The App does not work, please activate Bluetooth.";
+
+/*Bluetooth Permission Fehler*/
+"bluetooth_permission_turned_off" = "The app does not work hence the Bluetooth authorization is turned off.";
+
+/*Permission Text für Bluetooth*/
+"NSBluetoothPeripheralUsageDescription" = "Encounters are recognized via Bluetooth, in the Background and energy-saving";
+
+/*Bluetooth Permission Text für iOS*/
+"NSBluetoothAlwaysUsageDescription" = "Encounters are recognized via Bluetooth, in the Background and energy-saving";
+
+/*Text der bei Android in der permanenten Notification immer angezeigt wird*/
+"foreground_service_notification_text" = "App is scanning in the Background";
+
+/*Text, der angezeigt wird als Info für Leute die jemand positiv getesteten begegnet sind*/
+"exposed_info_support_text" = "If you have any questions or need recommendations, call the hotline.";
+
+/*Button mit Support Telefonnummer*/
+"exposed_info_tel_button_title" = "+41 00 000 00 00";
+
+/*Inform: Titel der Code abschicken Seite*/
+"inform_code_title" = "Enter the code";
+
+/*Inform: Code eingeben Subtext*/
+"inform_code_text" = "Enter the code you received with your test result.";
+
+/*Inform: Code eingeben kein Code Button Text*/
+"inform_code_no_code" = "Didn't get a code?";
+
+/*hint for filter tags in log-search*/
+"logs_filter_tags" = "tag filter (comma separated)";
+
+/*Titel des Bluetooth Control*/
+"bluetooth_setting_title" = "Tracing";
+
+/*Text beim Bluetooth Control*/
+"bluetooth_setting_text" = "Enable Bluetooth";
+
+/*Bluetooth Control: Tracking aktiv*/
+"bluetooth_setting_tracking_active" = "Tracing enabled";
+
+/*Bluetooth Control: Tracking Aktiv Subtext*/
+"bluetooth_setting_tracking_active_subtext" = "Encounters are saved anonymously on your device.";
+
+/*Bluetooth Control: Tracking deaktiviert*/
+"bluetooth_setting_tracking_inactive" = "Tracing disabled";
+
+/*Bluetooth Control: Tracking deaktiviert Subtext*/
+"bluetooth_setting_tracking_inactive_subtext" = "Allow Bluetooth so that encounters can be saved anonymously.";
+
+/*Bluetooth Setting: Titel unten*/
+"bluetooth_setting_tracking_explanation_title" = "How does tracing work?";
+
+/*Bluetooth Setting Text unten*/
+"bluetooth_setting_data_explanation_title" = "Is my data safe?";
+
+/*Bluetooth Setting: Text unten*/
+"bluetooth_setting_tracking_explanation_text1" = "Via BLE (Bluetooth Low Energy) the app recognizes ecounters with other users. Such encouters will be registered by the app, if two users stand close to each other for a certain time period, and are deleted after 21 days.";
+
+/*Bluetooth Setting: Text unten*/
+"bluetooth_setting_tracking_explanation_text2" = "Encounters with other users are only saved locally on your smartphone.";
+
+/*Bluetooth Setting: Text unten*/
+"bluetooth_setting_data_explanation_text1" = "Each App has its own dynamic ID that is randomly generated via «HMAC(SHA256)» and changes every 15 minutes. This way each user remains anonymous.";
+
+/*Bluetooth Setting: Text unten*/
+"bluetooth_setting_data_explanation_text2" = "Important features:\n- No location tracking\n- No analytics or advertising\n- Open architecture / protocol and specification incl. SDK for iOS and Android\n- Interoperability (own app, own Backend)\n- Open source";
+"reports_title_homescreen" = "Reports";
+
+/*Keine Meldungen Titel*/
+"meldungen_no_meldungen_title" = "No reports";
+
+/*Keine Meldungen Text*/
+"meldungen_no_meldungen_text" = "You will be informed in case of a possible infection.";
+
+/*Push deaktiviert Titel*/
+"push_deactivated_title" = "Push deactivated";
+
+/*Push deaktiviert Text*/
+"push_deactivated_text" = "Allow push notifications to be informed immediately when a report is received.";
+
+/*Hinweis Titel*/
+"hinweis_title" = "Note";
+
+/*Hinweis Text*/
+"hinweis_text" = "One person you met was tested positive for COVID-19.";
+"button_report_illness" = "Report illness";
+"meldungen_meldung_title" = "Note";
+"meldungen_meldung_text" = "One person you met was tested positive for COVID-19. Please read the information about the recommended behaviour here.";
+"meldungen_meldung_more_button" = "Learn more";
+"tracing_active_title" = "Tracing enabled";
+"tracing_active_text" = "Encounters are saved anonymously on your device.";
+"tracing_error_title" = "Tracing deactivated";
+"tracing_error_text" = "Activate tracing and Bluetooth so that encounters can be recorded anonymously.";
+
+/*Meldungen: zusätzliche Info Titel*/
+"meldungen_additional_info_title" = "What does that mean?";
+
+/*Meldungen: Info Text 1*/
+"meldungen_additional_info_text1" = "To stop a viral outbreak, you must break the chain of transmission. You can do this by isolating contagious people. Only, there is a problem with COVID-19. Infected people can be contagious, before having symptoms, which means: You can spread the virus without knowing. If only people with symptoms isolate themselves, the virus can still spread. We are one step behind.";
+
+/*Meldungen: zusätzlicher Info Text*/
+"meldungen_additional_info_text2" = "Therefore, exposed contacts should be informed. Then, they can also precociously isolate early – before they feel sick. Not everyone exposed contact will have the Virus. But those who do won’t pass it on. The trick is to be one step ahead.";
+
+/*Hinweis beim Eingabefeld für den Authentifizierungs-Code*/
+"auth_code_input_hint" = "000-000";
+
+/*Meldungen: Info Titel*/
+"meldungen_additional_info_title2" = "What shall I do?";
+
+/*Meldungen: Text*/
+"meldungen_additional_info_text3" = "Experts from the FOPH give you advice by phone.\n\nCoronavirus Infoline\n+41 58 463 00 00";
+
+/*Meldungen: Jetzt anrufen*/
+"meldungen_call_button_title" = "Call now";
+
+/*Bezeichnung für Beratungs-Hotline*/
+"meldungen_hotline_label" = "Coronavirus Infoline";
+
+/*Label für Anrufen-Button*/
+"button_call_now" = "Call now";
+
+/*Telefon-Nummer für die Hotline*/
+"tel_hotline" = "+41 58 463 00 00";
+
+/*Meldungen: Text ohne Hotline Info*/
+"meldungen_additional_info_text3_reduced" = "Experts from the FOPH give you advice by phone.";
+"meldungen_infected_title" = "Infection reported";
+"meldungen_infected_text" = "Thank you so much! People you met are informed anonymously and can isolate themselves.";
+"foreground_service_notification_errors" = "App cannot work properly at the moment:";
+"foreground_service_notification_error_network_sync" = "Error occurred while loading data";
+"foreground_service_notification_error_location_permission" = "Location permission is missing (needed for accessing bluetooth)";
+"foreground_service_notification_error_bluetooth_disabled" = "Bluetooth is deactivated";
+"foreground_service_notification_error_battery_optimization" = "Battery optimization is activated (prevents reliable background scanning)";
+
+/*Beruhigender Text für Detail-Seite, falls Meldung eingegangen ist*/
+"meldungen_hinweis_info_text1" = "This does not mean that you have been infected. But it is important that you make yourself aware of the adequate measures.";
+
+/*Info-Text "Was bedeuteted das" für Person, die selbst bemeldet hat*/
+"meldungen_hinweis_info_text1_infected" = "This does not mean that others have been infected. But it is important that everyone you met can take the appropriate measures.";
+
+/*Titel der Nachricht, die auf Beta-Status Hinweist*/
+"preview_warning_title" = "Preview version";
+
+/*Text der Nachricht, die auf Beta-Status Hinweist*/
+"preview_warning_text" = "This app was built as a preview to demonstrate the DP-3T implementation. It is not a final COVID-19 tracer.";
