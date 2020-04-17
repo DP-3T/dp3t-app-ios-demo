@@ -17,6 +17,11 @@ class NSDebugScreenMockView: NSSimpleModuleBaseView {
     init() {
         super.init(title: "debug_state_setting_title".ub_localized)
         setup()
+
+        NSUIStateManager.shared.addObserver(self) { [weak self] stateModel in
+            guard let strongSelf = self else { return }
+            strongSelf.update(stateModel)
+        }
     }
 
     required init?(coder _: NSCoder) {
@@ -54,18 +59,6 @@ class NSDebugScreenMockView: NSSimpleModuleBaseView {
         }
 
         contentView.addArrangedView(cbc)
-
-        let stateManager = NSTracingManager.shared.uiStateManager
-
-        if let status = stateManager.overwrittenInfectionState {
-            switch status {
-            case .healthy: checkboxes[1].isChecked = true
-            case .exposed: checkboxes[2].isChecked = true
-            case .infected: checkboxes[3].isChecked = true
-            }
-        } else {
-            checkboxes[0].isChecked = true
-        }
     }
 
     // MARK: - Logic
@@ -85,11 +78,21 @@ class NSDebugScreenMockView: NSSimpleModuleBaseView {
                 stateManager.overwrittenInfectionState = nil
             }
         }
+    }
 
-        for c in checkboxes {
-            if c != checkBox {
-                c.isChecked = false
-            }
+    private func update(_ stateModel: NSUIStateModel) {
+        // only set once because it's animated
+        let status = stateModel.debug.overwrittenInfectionState
+        checkboxes[0].isChecked = status == nil
+
+        if let s = status {
+            checkboxes[1].isChecked = s == .healthy
+            checkboxes[2].isChecked = s == .exposed
+            checkboxes[3].isChecked = s == .infected
+        } else {
+            checkboxes[1].isChecked = false
+            checkboxes[2].isChecked = false
+            checkboxes[3].isChecked = false
         }
     }
 }

@@ -14,6 +14,7 @@ class NSDebugscreenViewController: NSViewController {
     private let imageView = UIImageView(image: UIImage(named: "03-privacy"))
 
     private let mockModuleView = NSDebugScreenMockView()
+    private let sdkStatusView = NSDebugScreenSDKStatusView()
 
     // MARK: - Init
 
@@ -61,6 +62,10 @@ class NSDebugscreenViewController: NSViewController {
         }
 
         stackScrollView.addArrangedView(v)
+
+        stackScrollView.addSpacerView(NSPadding.large)
+
+        stackScrollView.addArrangedView(sdkStatusView)
 
         stackScrollView.addSpacerView(NSPadding.large)
 

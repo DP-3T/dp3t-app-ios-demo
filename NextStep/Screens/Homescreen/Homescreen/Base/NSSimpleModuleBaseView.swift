@@ -36,14 +36,16 @@ class NSSimpleModuleBaseView: UIView {
         addSubview(titleLabel)
         addSubview(contentView)
 
+        let inset = NSPadding.medium + NSPadding.small
+
         titleLabel.snp.makeConstraints { make in
-            make.top.left.right.equalToSuperview().inset(NSPadding.medium)
+            make.top.left.right.equalToSuperview().inset(inset)
         }
 
         contentView.snp.makeConstraints { make in
             make.top.equalTo(self.titleLabel.snp.bottom).offset(NSPadding.small)
-            make.left.right.equalToSuperview().inset(NSPadding.medium)
-            make.bottom.equalToSuperview().inset(NSPadding.medium)
+            make.left.right.equalToSuperview().inset(inset)
+            make.bottom.equalToSuperview().inset(inset)
         }
 
         contentView.axis = .vertical

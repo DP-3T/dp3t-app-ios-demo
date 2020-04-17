@@ -46,6 +46,8 @@ struct NSUIStateModel: Equatable {
     struct Debug: Equatable {
         var handshakeCount: Int?
         var lastSync: Date?
+        var infectionStatus: InfectionStatus = .healthy
+        var overwrittenInfectionState: InfectionStatus?
     }
 
     struct MeldungenDetail: Equatable {
