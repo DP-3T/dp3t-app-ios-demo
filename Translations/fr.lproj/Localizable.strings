@@ -168,7 +168,7 @@
 "homescreen_inform_module_gemeldet_label" = "Vous avez informé tous les utilisateurs que vous avez rencontrés récemment.";
 
 /*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
-"push_exposed_title" = "Mise à jour disponible";
+"push_exposed_title" = "Neue Informationen verfügbar";
 
 /*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
 "push_exposed_text" = "Veuillez ouvrir l'application pour plus d'informations.";
@@ -357,3 +357,60 @@
 
 /*Text der Nachricht, die auf Beta-Status Hinweist*/
 "preview_warning_text" = "Diese App dient als Vorschau, um die DP-3T Implementation zu zeigen. Es ist kein produktiv verwendbarer COVID-19 Tracer.";
+
+/*Label auf dem Button, der zum Debug-Screen führt*/
+"debug_settings_title" = "Debug Einstellungen";
+
+/*Titel für die Debug-Einstellungen zur Status-Überschreibung*/
+"debug_state_setting_title" = "App-Zustand überschreiben";
+
+/*Erklärungstext für die Debug-Einstellungen zur Status-Überschreibung*/
+"debug_state_setting_text" = "Diese Einstellung überschreibt den visuellen Zustand der App. Die Tracing-Funktionalität wird davon nicht beeinflusst.";
+
+/*Einstellungs-Option zum überschreiben des App-Zustands: Keine*/
+"debug_state_setting_option_none" = "Keine Überschreibung";
+
+/*Einstellungs-Option zum überschreiben des App-Zustands: Gesund*/
+"debug_state_setting_option_ok" = "Gesund";
+
+/*Einstellungs-Option zum überschreiben des App-Zustands: Einem positiven Kontakt ausgesetzt*/
+"debug_state_setting_option_exposed" = "Positiv getesteter Kontakt";
+
+/*Einstellungs-Option zum überschreiben des App-Zustands: Selbst positiv getestet*/
+"debug_state_setting_option_infected" = "Selbst positiv gemeldet";
+
+/*Titel für die Debug-Info zum Tracing-Status*/
+"debug_sdk_state_title" = "SDK Status";
+
+/*Erklärungstext für die Debug-Info zum Tracing-Status*/
+"debug_sdk_state_text" = "Der aktuelle Zustand des DP-3T SDKs.";
+
+/*Bezeichnung für den aktiven SDK Status*/
+"debug_sdk_state_active" = "wird ausgeführt";
+
+/*Bezeichnung für den inaktiven SDK Status*/
+"debug_sdk_state_inactive" = "wird nicht ausgeführt";
+
+/*Bezeichnung für den letzen sync-Zeitpunkt*/
+"debug_sdk_state_last_synced" = "Letzte Synchronisation: ";
+
+/*Bezeichnung für den Fall, bei dem der User selber als positiv getestet gemeldet wurde*/
+"debug_sdk_state_self_exposed" = "Selbst gemeldet: ";
+
+/*Bezeichnung für den Fall, bei dem ein Kontakt als positiv getestet gemeldet wurde*/
+"debug_sdk_state_contact_exposed" = "Kontakt gemeldet: ";
+
+/*Bezeichnung für die Anzahl bluetooth-handshakes, die ausgeführt wurden*/
+"debug_sdk_state_number_handshakes" = "Anzahl handshakes: ";
+
+/*Debug-Status-Bezeichnung für boleschen Wert 'true'*/
+"debug_sdk_state_boolean_true" = "ja";
+
+/*Debug-Status-Bezeichnung für boleschen Wert 'false'*/
+"debug_sdk_state_boolean_false" = "nein";
+
+/*Button-Text für das Zurücksetzen des lokalen SDK Zustandes*/
+"debug_sdk_button_reset" = "SDK zurücksetzen";
+
+/*Infotext, wenn lokal das SDK zurückgesetzt wurde*/
+"debug_sdk_reset_text" = "Der lokale Stand des DP-3T SDK wurde zurückgesetzt.";
