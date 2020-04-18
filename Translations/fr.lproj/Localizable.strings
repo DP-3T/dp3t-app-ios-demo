@@ -268,16 +268,16 @@
 "bluetooth_setting_data_explanation_title" = "Mes données sont-elles en sécurité?";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_tracking_explanation_text1" = "Die App erkennt mittels Bluetooth, genauer gesagt Bluetooth Low Energy, Begegnungen mit anderen Nutzern. Eine Begegnung wird durch die App registriert, wenn zwei Nutzer sich für eine bestimmte Zeit in der Nähe aufhalten, und nach 21 Tagen wieder gelöscht.";
+"bluetooth_setting_tracking_explanation_text1" = "En utilisant le BLE (Bluetooth Low Energy), l'application reconnait les autres utilisateurs. Si 2 utilisateurs restent proches pendant un certain temps, la rencontre est enregistré dans l'application pour 21 jours.";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_tracking_explanation_text2" = "Eine Begegnung mit einem anderen Nutzer wird nur lokal auf deinem Smartphone gespeichert.";
+"bluetooth_setting_tracking_explanation_text2" = "Les rencontres avec d'autres utilisateurs sont uniquement sauvegardé localement sur votre téléphone.";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_data_explanation_text1" = "Jede App hat eine dynamische ID, die alle 15 Minuten mittels «HMAC(SHA256)» zufällig generiert wird. So bleibt jeder Nutzer anonym.";
+"bluetooth_setting_data_explanation_text1" = "Chaque application utilisent des identifiants temporaire généré aléatoirement toutes les 15 minutes en utilisant «HMAC(SHA256)». De cette manière chaque utilisateur reste anonyme.";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_data_explanation_text2" = "Wichtige Eigenschaften:\n- Kein Location-Tracking\n- Keine Analytics oder Advertising Dienste\n- Offene Architektur / Protokoll und Spezifikation inkl. SDK für iOS und Android\n- Interoperabilität (Eigene App, eigenes Backend)\n- Open Source";
+"bluetooth_setting_data_explanation_text2" = "Caractéristiques importantes:\n- Pas de géolocalisation\n- Pas de trackeurs d'usages ou publicitaires\n- L'architecture et le procole sont ouverts. Cela inclut un SDK pour iOS et Android\n- Interopérabilité (Votre app, votre Backend)\n- Open Source";
 "reports_title_homescreen" = "Messages";
 
 /*Keine Meldungen Titel*/
@@ -296,10 +296,10 @@
 "hinweis_title" = "Remarque";
 
 /*Hinweis Text*/
-"hinweis_text" = "Eine Person, der du begegnet bist, wurde positiv auf COVID-19 getestet.";
+"hinweis_text" = "Une personne que vous avez rencontré a été testé positive au COVID-19.";
 "button_report_illness" = "Signaler une maladie";
 "meldungen_meldung_title" = "Note";
-"meldungen_meldung_text" = "Eine Person, der du begegnet bist, wurde positiv auf COVID-19 getestet. Bitte informiere dich hier über die Verhaltensempfehlungen.";
+"meldungen_meldung_text" = "Une personne que vous avez rencontré a été testé positive au COVID-19. Merci de prendre connaissance des recommandations ici.";
 "meldungen_meldung_more_button" = "En savoir plus";
 "tracing_active_title" = "Suivi actif";
 "tracing_active_text" = "Les rencontres sont enregistrées de manière anonyme sur votre appareil.";
@@ -310,50 +310,50 @@
 "meldungen_additional_info_title" = "Qu'est-ce que cela signifie?";
 
 /*Meldungen: Info Text 1*/
-"meldungen_additional_info_text1" = "Um die Verbreitung eines Virus zu stoppen, muss man die Ansteckungsketten unterbrechen. Das gelingt, wenn man ansteckende Personen isoliert. Nur: Beim neuen Coronavirus gibt es ein Problem. Es kann sein, dass du bereits ansteckend bist, bevor du dich krank fühlst. So kann sich das Virus ausbreiten, obwohl sich Personen mit Symptomen selbst isolieren. Denn wir sind einen Schritt zu spät.";
+"meldungen_additional_info_text1" = "Pour arrêter l'épidémie, vous devez casser la chaine de transmission. Vous pouvez faire cela en isolant les personnes contagieuses. Mais, avec le COVID-19, il y a un problème : les personnes infectées peuvent être contagieuses avant d'avoir des symptômes. Cela signifie que vous pouvez répendre le virus sans le savoir. Si uniquement les personnes avec des symptômes s'isolent d'elles-mêmes, le virus continue sa diffusion : nous sommes une étape en retard.";
 
 /*Meldungen: zusätzlicher Info Text*/
-"meldungen_additional_info_text2" = "Deshalb sollen Kontakpersonen informiert werden. So können sie sich frühzeitig isolieren – noch bevor sie sich krank fühlen. Natürlich haben dann nicht alle Kontaktpersonen das Virus. Aber diejenigen, die es haben, geben es nicht weiter. So sind wir dem Virus einen Schritt voraus.";
+"meldungen_additional_info_text2" = "C'est pour cela que les personnes en contact doivent être prévenu. Elles pourront s'isoler préventivement avant de se sentir malade. Toutes les personnes en contact n'auront pas le virus mais ceux qu'ils l'ont ne l'auront pas diffusé. Avec cette astuce, nous aurons une étape d'avance.";
 
 /*Hinweis beim Eingabefeld für den Authentifizierungs-Code*/
 "auth_code_input_hint" = "000-000";
 
 /*Meldungen: Info Titel*/
-"meldungen_additional_info_title2" = "Wie soll ich mich verhalten?";
+"meldungen_additional_info_title2" = "Qu'est-ce que je dois faire ?";
 
 /*Meldungen: Text*/
-"meldungen_additional_info_text3" = "Experten vom BAG beraten Sie telefonisch.\n\nCorona-Infoline\n+41 58 463 00 00";
+"meldungen_additional_info_text3" = "Les experts de l'OFSP peuvent donner conseil par téléphone.\n\nCoronavirus-Infoline\n+41 58 463 00 00";
 
 /*Meldungen: Jetzt anrufen*/
-"meldungen_call_button_title" = "Jetzt anrufen";
+"meldungen_call_button_title" = "Appeler maintenant";
 
 /*Bezeichnung für Beratungs-Hotline*/
-"meldungen_hotline_label" = "Corona-Infoline";
+"meldungen_hotline_label" = "Coronavirus-Infoline";
 
 /*Label für Anrufen-Button*/
-"button_call_now" = "Jetzt anrufen";
+"button_call_now" = "Appeler maintenant";
 
 /*Telefon-Nummer für die Hotline*/
 "tel_hotline" = "+41 58 463 00 00";
 
 /*Meldungen: Text ohne Hotline Info*/
-"meldungen_additional_info_text3_reduced" = "Experten vom BAG beraten dich telefonisch.";
-"meldungen_infected_title" = "Infektion gemeldet";
-"meldungen_infected_text" = "Vielen Dank! Nutzer denen du begegnet bist, werden anonym informiert und können sich isolieren.";
-"foreground_service_notification_errors" = "App kann zur Zeit nicht richtig funktionieren:";
-"foreground_service_notification_error_network_sync" = "beim Laden der Daten ist ein Fehler aufgetreten";
-"foreground_service_notification_error_location_permission" = "Standort Berechtigung fehlt (benötigt um auf Bluetooth zuzugreifen)";
-"foreground_service_notification_error_bluetooth_disabled" = "Bluetooth ist deaktiviert";
-"foreground_service_notification_error_battery_optimization" = "Akku Optimierung ist aktiviert (verhindert zuverlässiges Scanning im Hintergrund)";
+"meldungen_additional_info_text3_reduced" = "Les experts de l'OFSP donnent des conseils par téléphone.";
+"meldungen_infected_title" = "Infection reporté";
+"meldungen_infected_text" = "Merci beaucoup ! Les personnes que vous avez rencontrées seront informées anonymement et pourront s'isoler.";
+"foreground_service_notification_errors" = "L'app ne peut pas fonctionner correctement:";
+"foreground_service_notification_error_network_sync" = "Une erreur pour charger les données";
+"foreground_service_notification_error_location_permission" = "Les permissions de localisation sont manquantes (nécessaire pour le Bluetooth)";
+"foreground_service_notification_error_bluetooth_disabled" = "Le Bluetooth est désactivé";
+"foreground_service_notification_error_battery_optimization" = "L'optimisation de batterie est activé (empêche le scan en tâche de fond)";
 
 /*Beruhigender Text für Detail-Seite, falls Meldung eingegangen ist*/
-"meldungen_hinweis_info_text1" = "Dies bedeutet nicht, dass du angesteckt wurdest. Aber es ist wichtig, dass du dich über mögliche Massnahmen informierst.";
+"meldungen_hinweis_info_text1" = "Cela ne signifie pas que vous avez été infecté. Mais il est important que vous vous informiez sur mesures appropriées.";
 
 /*Info-Text "Was bedeuteted das" für Person, die selbst bemeldet hat*/
-"meldungen_hinweis_info_text1_infected" = "Dies bedeutet nicht, dass jemand angesteckt wurde. Aber es ist wichtig, dass jede Person, der du begegnet bist, sich über angemessene Massnahmen informieren kann.";
+"meldungen_hinweis_info_text1_infected" = "Cela ne signifie pas que d'autres personnes ont été infecté. Mais il est important que tous ceux que vous avez rencontrés soient informés des mesures appropriées.";
 
 /*Titel der Nachricht, die auf Beta-Status Hinweist*/
-"preview_warning_title" = "Vorschau Version";
+"preview_warning_title" = "Version d'aperçu";
 
 /*Text der Nachricht, die auf Beta-Status Hinweist*/
-"preview_warning_text" = "Diese App dient als Vorschau, um die DP-3T Implementation zu zeigen. Es ist kein produktiv verwendbarer COVID-19 Tracer.";
+"preview_warning_text" = "Cette application sert à montrer la mise en œuvre du DP-3T. Ce n'est pas un traceur COVID-19 utilisable en production.";
