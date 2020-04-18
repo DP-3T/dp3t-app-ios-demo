@@ -268,7 +268,7 @@
 "bluetooth_setting_data_explanation_title" = "Mes données sont-elles en sécurité?";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_tracking_explanation_text1" = "En utilisant le BLE (Bluetooth Low Energy), l'application reconnait les autres utilisateurs. Si 2 utilisateurs restent proches pendant un certain temps, la rencontre est enregistré dans l'application pour 21 jours.";
+"bluetooth_setting_tracking_explanation_text1" = "En utilisant le BLE (Bluetooth Low Energy), l'application reconnait les autres utilisateurs. Si deux utilisateurs restent proches pendant un certain temps, la rencontre est enregistré dans l'application pour 21 jours.";
 
 /*Bluetooth Setting: Text unten*/
 "bluetooth_setting_tracking_explanation_text2" = "Les rencontres avec d'autres utilisateurs sont uniquement sauvegardé localement sur votre téléphone.";
