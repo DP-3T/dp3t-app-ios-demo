@@ -371,4 +371,4 @@
 "preview_warning_title" = "Voorbeeld Versie";
 
 /*Text der Nachricht, die auf Beta-Status Hinweist*/
-"preview_warning_text" = "Deze App dient als voorbeeld, om de DP-3T implementatie te tonen. Het is geen productie-waardige COVID-19 Tracer.";
+"preview_warning_text" = "Deze app dient als voorbeeld, om de DP-3T implementatie te tonen. Het is geen productiewaardige COVID-19 Tracer.";
