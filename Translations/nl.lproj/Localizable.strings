@@ -6,13 +6,13 @@
 "CFBundleDisplayName" = "Next Step";
 
 /*Title of the menu item home*/
-"menu_item_home" = "Hoofdmenu";
+"menu_item_home" = "Home";
 
 /*Title of the menu item info*/
 "menu_item_info" = "Info";
 
 /*Title of the menu item tracking*/
-"menu_item_tracking" = "Traceren";
+"menu_item_tracking" = "Tracing";
 
 /*Loading View: Erneut laden*/
 "loading_view_reload" = "Opnieuw laden";
@@ -36,7 +36,7 @@
 "homescreen_handshakes_module_info_label" = "Hier wordt informatie over jouw ontmoetingen gerelateerd aan COVID-19 getoond.";
 
 /*Informieren Titel*/
-"inform_title" = "Infektionskette unterbrechen";
+"inform_title" = "Infectieketen doorbreken";
 
 /*Inform Subtext*/
 "inform_subtext" = "Ik wil helpen om de infectieketen van COVID-19 te doorbreken.";
@@ -59,7 +59,7 @@
 "inform_continue_button" = "Verder";
 
 /*Informieren: Positive Testergebnis*/
-"inform_positive_long_text" = "Ik ben onlangs positief getest op COVID-19.\n\nIk wil daarom een mogelijke infectieketen voorkomen door de App personen die ik ontmoet heb te informeren.";
+"inform_positive_long_text" = "Ik ben onlangs positief getest op COVID-19.\n\nIk wil daarom een mogelijke infectieketen voorkomen door de app personen die ik ontmoet heb te informeren.";
 
 /*Ich leide an einem oder mehreren der folgenden Symptome:*/
 "inform_symptom_starttext" = "Ik heb één of meerdere van de volgende symptomen:";
@@ -68,7 +68,7 @@
 "inform_send_button_title" = "Verzenden";
 
 /*Informieren: Senden Text Symptome*/
-"inform_symptoms_send_text" = "Ik heb de genoemde symptomen, die op COVID-19 kunnen duiden.\n\nIk wil daarom een mogelijke infectieketen voorkomen door de App personen die ik ontmoet heb te informeren.";
+"inform_symptoms_send_text" = "Ik heb de genoemde symptomen, die op COVID-19 kunnen duiden.\n\nIk wil daarom een mogelijke infectieketen voorkomen door de app personen die ik ontmoet heb te informeren.";
 
 /*Informieren: Danke*/
 "inform_send_thankyou" = "BEDANKT!";
@@ -182,8 +182,8 @@
 "onboarding_desc_4" = "Geef alsjeblieft de volgende toestemmingen zodat de app correct werkt.";
 "onboarding_title_5" = "Next Step";
 "onboarding_desc_5" = "Samen maken we de volgende stap uit de isolatie mogelijk.";
-"onboarding_android_location_permission_info" = "Tracing werkt door middel van Bluetooth Low Energy Technology, daarom heeft de App toegang tot Bluetooth nodig. Op Android is dat alleen mogelijk als de App locatie-authorisatie heeft.\n\nDe App gebruikt echter geen toegang tot je locatie!";
-"onboarding_android_battery_saving_info" = "Om Tracing voortdurend op de achtergrond uit te voeren, moet accu-optimalisatie voor de App uitgeschakeld worden.";
+"onboarding_android_location_permission_info" = "Tracing werkt door middel van Bluetooth Low Energy Technology, daarom heeft de app toegang tot Bluetooth nodig. Op Android is dat alleen mogelijk als de app locatie-authorisatie heeft.\n\nDe app heeft echter geen toegang tot je locatie!";
+"onboarding_android_battery_saving_info" = "Om Tracing voortdurend op de achtergrond uit te voeren, moet accu-optimalisatie voor de app uitgeschakeld worden.";
 "button_permission_location_android" = "Locatie toestaan";
 "button_permission_location_granted_android" = "Locatie toegestaan";
 "button_ok" = "OK";
@@ -204,7 +204,7 @@
 "homescreen_handshakes_module_info_label_nosymptoms" = "Hier zie je of personen die je bent tegengekomen over COVID-19 informeren.";
 
 /*Siehe inform_text_homescreen*/
-"inform_text_homescreen_nosymptoms" = "Informiere Personen, denen du begegnet bist anonym, wenn du positiv auf COVID-19 getestet wurdest.";
+"inform_text_homescreen_nosymptoms" = "Informeer personen die je tegengekomen bent anoniem als je positief op COVID-19 getest wordt.";
 
 /*Unerwarteter Fehler*/
 "unexpected_error_title" = "Er is een onverwachte fout opgetreden ({ERROR}).";
@@ -354,14 +354,14 @@
 
 /*Fuzzy*/
 "meldungen_infected_text" = "Hartelijk bedankt! Gebruikers die je ontmoet hebt worden anoniem geïnformeerd en kunnen zich isoleren.";
-"foreground_service_notification_errors" = "App kan momentel niet correct functioneren:";
+"foreground_service_notification_errors" = "App kan momenteel niet correct functioneren:";
 "foreground_service_notification_error_network_sync" = "bij het laden van data is een fout opgetreden";
 "foreground_service_notification_error_location_permission" = "Locatie-authorisatie mislukt (nodig om toegang tot Bluetooth te krijgen)";
 "foreground_service_notification_error_bluetooth_disabled" = "Bluetooth is gedeactiveerd";
 "foreground_service_notification_error_battery_optimization" = "Accu-optimalisatie is geactiveerd (voorkomt betrouwbare scanning op de achtergrond)";
 
 /*Beruhigender Text für Detail-Seite, falls Meldung eingegangen ist*/
-"meldungen_hinweis_info_text1" = "Dit betekent niet dat je besmet bent. Maar het is belangrijk dat je je over mogelijke maatregelen informeert.";
+"meldungen_hinweis_info_text1" = "Dit betekent niet dat je besmet bent. Maar het is belangrijk dat jij je over mogelijke maatregelen informeert.";
 
 /*Info-Text "Was bedeuteted das" für Person, die selbst bemeldet hat*/
 /*Fuzzy*/
