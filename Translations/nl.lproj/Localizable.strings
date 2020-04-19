@@ -1,0 +1,374 @@
+
+/*Name der App*/
+"app_name" = "Next Step";
+
+/*App Name unter Icon (iOS)*/
+"CFBundleDisplayName" = "Next Step";
+
+/*Title of the menu item home*/
+"menu_item_home" = "Hoofdmenu";
+
+/*Title of the menu item info*/
+"menu_item_info" = "Info";
+
+/*Title of the menu item tracking*/
+"menu_item_tracking" = "Traceren";
+
+/*Loading View: Erneut laden*/
+"loading_view_reload" = "Opnieuw laden";
+
+/*Loading View: Titel*/
+"loading_view_error_title" = "Fout";
+
+/*Text on grant permission button*/
+"grant_permission_button" = "Toestemming geven";
+
+/*Text on grant permission button if permission is granted*/
+"granted_permission_button" = "Toestemming gegeven";
+
+/*Sprachen-Key*/
+"language_key" = "nl";
+
+/*Force Update Alert Titel*/
+"force_update_title" = "Update";
+"homescreen_handshakes_module_count_info_label" = "Ontmoetingen worden anoniem op je apparaat opgeslagen.";
+"homescreen_handshakes_module_count_label_format" = "{count} in de laatste 48 uur";
+"homescreen_handshakes_module_info_label" = "Hier wordt informatie over jouw ontmoetingen gerelateerd aan COVID-19 getoond.";
+
+/*Informieren Titel*/
+"inform_title" = "Infektionskette unterbrechen";
+
+/*Inform Subtext*/
+"inform_subtext" = "Ik wil helpen om de infectieketen van COVID-19 te doorbreken.";
+
+/*Inform: Symptome Button*/
+"inform_button_symptom_title" = "Symptomen";
+
+/*Inform: Symptome Button*/
+"inform_button_symptom_text" = "Ik heb momenteel symptomen.";
+
+/*Inform: Button Titel*/
+"inform_button_positive_title" = "Positief testresultaat";
+
+/*Inform Button Positiv*/
+"inform_button_positive_text" = "Ik ben onlangs positief getest.";
+"what_to_do_button" = "Wat moet ik doen?";
+"homescreen_handshakes_module_gemeldet_label" = "Een persoon die je onlangs ontmoet hebt, heeft COVID-19 gemeld.";
+
+/*Inform-Flow*/
+"inform_continue_button" = "Verder";
+
+/*Informieren: Positive Testergebnis*/
+"inform_positive_long_text" = "Ik ben onlangs positief getest op COVID-19.\n\nIk wil daarom een mogelijke infectieketen voorkomen door de App personen die ik ontmoet heb te informeren.";
+
+/*Ich leide an einem oder mehreren der folgenden Symptome:*/
+"inform_symptom_starttext" = "Ik heb één of meerdere van de volgende symptomen:";
+
+/*Informieren: Senden Button*/
+"inform_send_button_title" = "Verzenden";
+
+/*Informieren: Senden Text Symptome*/
+"inform_symptoms_send_text" = "Ik heb de genoemde symptomen, die op COVID-19 kunnen duiden.\n\nIk wil daarom een mogelijke infectieketen voorkomen door de App personen die ik ontmoet heb te informeren.";
+
+/*Informieren: Danke*/
+"inform_send_thankyou" = "BEDANKT!";
+"inform_send_thankyou_text" = "Je informatie is verzonden.\nDaarmee lever je een belangrijke bijdrage om de verspreiding van het coronavirus te stoppen.";
+
+/*Symptome*/
+"inform_symptom_coughdry" = "Hoesten (meestal droog)";
+
+/*Symptom*/
+"inform_symptom_hals" = "Keelpijn";
+
+/*Symptom*/
+"inform_symptom_kurzatmigkeit" = "Kortademigheid";
+
+/*Symptom*/
+"inform_symptom_fieber" = "Koorst, koortsgevoel";
+
+/*Symptom*/
+"inform_symptom_muskel" = "Spierpijn";
+
+/*Symptome*/
+"inform_no_symptom" = "Geen van de vermelde symptomen";
+
+/*Text in toast when downloading pdf*/
+"downloading_pdf" = "PDF wordt gedownload";
+
+/*Inform: Empfehlung*/
+"inform_empfehlung" = "Aanbeveling";
+
+/*Inform: Empfehlung Text*/
+"inform_empfehlung_subtext" = "Een medische verklaring of labtest wordt niet weergeven.\n\nHou je aan de hygiene- en gedragsregels.";
+
+/*Inform: Button Titel*/
+"inform_fertig_button_title" = "Klaar";
+
+/*CSV wird heruntergeladen*/
+"downloading_csv" = "CSV wordt gedownload";
+"handshakes_heading_homescreen" = " ";
+"handshakes_title_homescreen" = "Ontmoetingen";
+"inform_heading_homescreen" = " ";
+"inform_title_homescreen" = "Vermoedelijke coronaziekte";
+"inform_text_homescreen" = "Informeer personen die je ontmoet hebt, als je symptomen voelt of positief getest wordt.";
+"inform_button_title" = "Ziekte melden";
+"inform_button_title_again" = "Opnieuw informeren";
+"inform_last_meldung_text" = "Laatste succesvolle meldung op {date}";
+
+/*Erstes Tab*/
+"tab_theapp_title" = "De App";
+
+/*Tab Titel*/
+"tab_aktuell_title" = "Actueel";
+
+/*Tab Titel*/
+"tab_verhalten_title" = "Gedrag";
+
+/*Tab Titel*/
+"tab_prinzip_title" = "Principes";
+
+/*Abbrechen*/
+"cancel" = "Annuleren";
+
+/*Schliessen*/
+"close" = "Sluiten";
+
+/*App Name ohne COVID-19*/
+"app_name_star" = "Next Step";
+
+/*Info Text ohne COVID-19*/
+"homescreen_handshakes_module_info_label_star" = "Op dit moment heeft geen gebruiker, die onlangs in jouw buurt was, een signaal geactiveerd.";
+
+/*Text bei aktivierung ohne COVID-19*/
+"homescreen_handshakes_module_gemeldet_label_star" = "Een gebruiker die onlangs in jouw buurt was heeft een signaal geactiveerd.";
+
+/*Informieren Titel ohne COVID-19*/
+"inform_title_homescreen_star" = "Broadcast";
+
+/*Informieren Info Text ohne COVID-19*/
+"inform_text_homescreen_star" = "Stuur een signaal naar alle gebruikers die onlangs in de buurt waren. Daardoor worden noch je locatie noch je persoonlijke data openbaar gemaakt.";
+
+/*Übertitel für Broadcast ohne COVID-19*/
+"inform_heading_homescreen_star" = " ";
+
+/*Titel für Broadcast Screen ohne COVID-19*/
+"inform_broadcast_title_star" = "Broadcast";
+
+/*Text für Broadcast ohne COVID-19*/
+"inform_broadcast_long_text_star" = "Stuur een signaal naar alle gebruikers die onlangs in de buurt waren. Daardoor worden noch je locatie noch je persoonlijke data openbaar gemaakt.";
+
+/*Danke Text ohne COVID-19*/
+"inform_send_thankyou_text_star" = "Jouw signaal is verzonden en is voor andere gebruikers zichtbaar, als je onlangs in de buurt was. Je locatie en persoonlijke data zijn daarbij niet openbaar gemaakt.";
+
+/*Begegnungen*/
+"begegnungen_counter_title" = "Synchronizaties";
+"inform_meldung_time" = "Melding van {date}";
+"homescreen_inform_module_gemeldet_label_star" = "Je hebt een signaal verstuurd naar alle gebruikers die je in de laatste tijd bent tegengekomen.";
+"homescreen_inform_module_gemeldet_label" = "Je hebt alle gebruikers geinformeerd die je in de laatste tijd bent tegengekomen.";
+
+/*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
+"push_exposed_title" = "Nieuwe informatie beschikbaar";
+
+/*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
+"push_exposed_text" = "Open de app voor verdere informatie.";
+"onboarding_top_label_how" = "Hoe werkt het:";
+"onboarding_title_1" = "Een stap verder";
+"onboarding_desc_1" = "Met de Next Step App kunnen wij allemaal bijdragen om de verbreiding van COVID-19 in te dammen. De app helpt mensen die een besmetting hebben opgedaan om zich al vanaf de eerste symptomen te isoleren.";
+"onboarding_title_2" = "Automatisch\nen anoniem";
+"onboarding_desc_2" = "De App herkent ontmoetingen en slaat deze anoniem en versleuteld op je apparaat op.";
+"onboarding_title_3" = "Informeren";
+"onboarding_desc_3" = "Bij een positieve test kun je de mensen die je ontmoet hebt anoniem informeren zodat zij de juiste maatregelen kunnen treffen.";
+"onboarding_title_4" = "Toestemmingen";
+"onboarding_desc_4" = "Geef alsjeblieft de volgende toestemmingen zodat de app correct werkt.";
+"onboarding_title_5" = "Next Step";
+"onboarding_desc_5" = "Samen maken we de volgende stap uit de isolatie mogelijk.";
+"onboarding_android_location_permission_info" = "Tracing werkt door middel van Bluetooth Low Energy Technology, daarom heeft de App toegang tot Bluetooth nodig. Op Android is dat alleen mogelijk als de App locatie-authorisatie heeft.\n\nDe App gebruikt echter geen toegang tot je locatie!";
+"onboarding_android_battery_saving_info" = "Om Tracing voortdurend op de achtergrond uit te voeren, moet accu-optimalisatie voor de App uitgeschakeld worden.";
+"button_permission_location_android" = "Locatie toestaan";
+"button_permission_location_granted_android" = "Locatie toegestaan";
+"button_ok" = "OK";
+"activate_bluetooth_button" = "Bluetooth activeren";
+"activate_push_button" = "Pushberichten activeren";
+"bluetooth_activated_label" = "Bluetooth geactiveerd";
+"push_activated_label" = "Pushberichten aktiviert";
+"onboarding_continue_button" = "Verder";
+"onboarding_continue_without_button" = "Verder zonder toestemmingen";
+"onboarding_continue_without_popup_text" = "Wil je echt verder? De app functioneert niet volledig als je de nodige toestemmingen niet geeft.";
+"onboarding_continue_without_popup_abort" = "Afbreken";
+"onboarding_continue_without_popup_continue" = "Verder";
+"onboarding_finish_button" = "Klaar";
+"button_battery_optimization" = "Accu-optimalisatie deactiveren";
+"button_battery_optimization_deactivated" = "Accu-optimalisatie gedeactiveerd";
+
+/*Gleicher Inhalt wie homescreen_handshakes_module_info_label, aber ohne Symptome*/
+"homescreen_handshakes_module_info_label_nosymptoms" = "Hier zie je of personen die je bent tegengekomen over COVID-19 informeren.";
+
+/*Siehe inform_text_homescreen*/
+"inform_text_homescreen_nosymptoms" = "Informiere Personen, denen du begegnet bist anonym, wenn du positiv auf COVID-19 getestet wurdest.";
+
+/*Unerwarteter Fehler*/
+"unexpected_error_title" = "Er is een onverwachte fout opgetreden ({ERROR}).";
+
+/*Bluetooth Fehlermeldung*/
+"bluetooth_turned_off" = "De app werkt niet als er geen toestemming voor Bluetooth gegeven is.";
+
+/*Bluetooth Permission Fehler*/
+"bluetooth_permission_turned_off" = "De app werkt niet als er geen toestemming voor Bluetooth gegeven is.";
+
+/*Permission Text für Bluetooth*/
+"NSBluetoothPeripheralUsageDescription" = "Ontmoetingen worden door Bluetooth op een energiezuinige manier op de achtergrond herkend.";
+
+/*Bluetooth Permission Text für iOS*/
+"NSBluetoothAlwaysUsageDescription" = "Ontmoetingen worden door Bluetooth op een energiezuinige manier op de achtergrond herkend.";
+
+/*Text der bei Android in der permanenten Notification immer angezeigt wird*/
+"foreground_service_notification_text" = "Ontmoetingen worden anoniem op je apparaat opgeslagen.";
+
+/*Text, der angezeigt wird als Info für Leute die jemand positiv getesteten begegnet sind*/
+"exposed_info_support_text" = "Als je vragen hebt of aanwijzingen nodig hebt, bel dan de infoline.";
+
+/*Button mit Support Telefonnummer*/
+"exposed_info_tel_button_title" = "+31 00 000 00 00";
+
+/*Inform: Titel der Code abschicken Seite*/
+"inform_code_title" = "Code invoeren";
+
+/*Inform: Code eingeben Subtext*/
+"inform_code_text" = "Voer de code in, die je bij je testresultaat heb gekregen.";
+
+/*Inform: Code eingeben kein Code Button Text*/
+"inform_code_no_code" = "Geen code gekregen?";
+
+/*hint for filter tags in log-search*/
+"logs_filter_tags" = "Tag-filter (kommagescheiden)";
+
+/*Titel des Bluetooth Control*/
+"bluetooth_setting_title" = "Tracing";
+
+/*Text beim Bluetooth Control*/
+"bluetooth_setting_text" = "Ontmoetingen herkennen";
+
+/*Bluetooth Control: Tracking aktiv*/
+"bluetooth_setting_tracking_active" = "Tracing actief";
+
+/*Bluetooth Control: Tracking Aktiv Subtext*/
+"bluetooth_setting_tracking_active_subtext" = "Ontmoetingen worden anoniem op je apparaat opgeslagen.";
+
+/*Bluetooth Control: Tracking deaktiviert*/
+"bluetooth_setting_tracking_inactive" = "Tracing gedeactiveerd";
+
+/*Bluetooth Control: Tracking deaktiviert Subtext*/
+"bluetooth_setting_tracking_inactive_subtext" = "Bluetooth toestaan zodat ontmoetingen op je apparaat kunnen worden opgeslagen.";
+
+/*Bluetooth Setting: Titel unten*/
+"bluetooth_setting_tracking_explanation_title" = "Hoe werkt Tracing?";
+
+/*Bluetooth Setting Text unten*/
+"bluetooth_setting_data_explanation_title" = "Is mijn data veilig?";
+
+/*Bluetooth Setting: Text unten*/
+/*Fuzzy*/
+"bluetooth_setting_tracking_explanation_text1" = "De app herkent door middel van Bluetooth, preciezer gezegd Bluetooth Low Energy, ontmoetingen met andere gebruikers. Een ontmoeting wordt door de app geregistreerd wanneer twee gebruikers voor een bepaalde tijd in elkaars buurt zijn, en na 21 dagen weer verwijderd.";
+
+/*Bluetooth Setting: Text unten*/
+/*Fuzzy*/
+"bluetooth_setting_tracking_explanation_text2" = "Een ontmoeting met een andere gebruiker wordt alleen lokaal op je smartphone opgeslagen.";
+
+/*Bluetooth Setting: Text unten*/
+/*Fuzzy*/
+"bluetooth_setting_data_explanation_text1" = "Elke app heeft een dynamisch ID die elke 15 minuten door middel van «HMAC(SHA256)» random wordt aangemaakt. Zo blijft elke gebruiker anoniem.";
+
+/*Bluetooth Setting: Text unten*/
+/*Fuzzy*/
+"bluetooth_setting_data_explanation_text2" = "Belangrijkste eigenschappen:\n- geen locatie tracking\n- geen analytica en advertentiediensten\n- open architectuur, open protocol en specificaties inclusief SDK voor iOS en Android\n- interoperabiliteit (eigen App, eigen backend)\n- open source\n";
+
+"reports_title_homescreen" = "Meldingen";
+
+/*Keine Meldungen Titel*/
+"meldungen_no_meldungen_title" = "Geen Meldingen";
+
+/*Keine Meldungen Text*/
+"meldungen_no_meldungen_text" = "Je wordt bij verdenking van een mogelijke besmetting geïnformeerd.";
+
+/*Push deaktiviert Titel*/
+"push_deactivated_title" = "Pushberichten gedeactiveerd";
+
+/*Push deaktiviert Text*/
+"push_deactivated_text" = "Sta pushberichten toe om bij een melding direct geïnformeerd te worden.";
+
+/*Hinweis Titel*/
+"hinweis_title" = "Belangrijke opmerking";
+
+/*Hinweis Text*/
+/*Fuzzy*/
+"hinweis_text" = "Een persoon die je ontmoet hebt, is positief getest op COVID-19.";
+"button_report_illness" = "Ziekte melden";
+"meldungen_meldung_title" = "Belangrijke opmerking";
+
+/*Fuzzy*/
+"meldungen_meldung_text" = "Een persoon die je ontmoet hebt, is positief getest op COVID-19. Informeer je alsjeblieft hier over de gedragsaanbevelingen.";
+"meldungen_meldung_more_button" = "Kom meer te weten";
+"tracing_active_title" = "Tracing actief";
+"tracing_active_text" = "Ontmoetingen worden anoniem op je apparaat opgeslagen.";
+"tracing_error_title" = "Tracing niet actief";
+"tracing_error_text" = "Activeer Tracing en Bluetooth zodat ontmoetingen anoniem geregistreerd kunnen worden.";
+
+/*Meldungen: zusätzliche Info Titel*/
+"meldungen_additional_info_title" = "Wat betekent dat?";
+
+/*Meldungen: Info Text 1*/
+/*Fuzzy*/
+"meldungen_additional_info_text1" = "Om de verspreiding van een virus de stoppen moeten we de besmettingsketen doorbreken. Dat lukt als besmettelijke personen zich isoleren. Maar: bij het nieuwe coronavirus is er een probleem. Het kan voorkomen dat je al besmettelijk bent vóórdat jij je ziek voelt. Zo kan het virus zich uitbreiden, ook al isoleren personen met symptomen zich. Daardoor zijn we een stap te laat.";
+
+/*Meldungen: zusätzlicher Info Text*/
+/*Fuzzy*/
+"meldungen_additional_info_text2" = "Daarom moeten contactpersonen geïnformeerd worden. Dan kunnen zij zich vroegtijdig isoleren – nog voor dat zij zich ziek voelen. Natuurlijk hebben dan niet alle contactpersonen het virus. Maar degenen die het hebben geven het niet door. Zo zijn we het virus een stap voor.";
+
+/*Hinweis beim Eingabefeld für den Authentifizierungs-Code*/
+"auth_code_input_hint" = "000-000";
+
+/*Meldungen: Info Titel*/
+"meldungen_additional_info_title2" = "Hoe moet ik mij gedragen?";
+
+/*Meldungen: Text*/
+/*Fuzzy*/
+"meldungen_additional_info_text3" = "Experts van de GGD kun je telefonisch raadplegen.\n\nCorona-infoline\n+31 xx xxxx xx xx";
+
+/*Meldungen: Jetzt anrufen*/
+"meldungen_call_button_title" = "Nu bellen";
+
+/*Bezeichnung für Beratungs-Hotline*/
+"meldungen_hotline_label" = "Corona-infoline";
+
+/*Label für Anrufen-Button*/
+"button_call_now" = "Nu bellen";
+
+/*Telefon-Nummer für die Hotline*/
+"tel_hotline" = "+31 xx xxxx xx xx";
+
+/*Meldungen: Text ohne Hotline Info*/
+"meldungen_additional_info_text3_reduced" = "Experts van de GGD adviseren je telefonisch.";
+
+/*Fuzzy*/
+"meldungen_infected_title" = "Infectie gemeld";
+
+/*Fuzzy*/
+"meldungen_infected_text" = "Hartelijk bedankt! Gebruikers die je ontmoet hebt worden anoniem geïnformeerd en kunnen zich isoleren.";
+"foreground_service_notification_errors" = "App kan momentel niet correct functioneren:";
+"foreground_service_notification_error_network_sync" = "bij het laden van data is een fout opgetreden";
+"foreground_service_notification_error_location_permission" = "Locatie-authorisatie mislukt (nodig om toegang tot Bluetooth te krijgen)";
+"foreground_service_notification_error_bluetooth_disabled" = "Bluetooth is gedeactiveerd";
+"foreground_service_notification_error_battery_optimization" = "Accu-optimalisatie is geactiveerd (voorkomt betrouwbare scanning op de achtergrond)";
+
+/*Beruhigender Text für Detail-Seite, falls Meldung eingegangen ist*/
+"meldungen_hinweis_info_text1" = "Dit betekent niet dat je besmet bent. Maar het is belangrijk dat je je over mogelijke maatregelen informeert.";
+
+/*Info-Text "Was bedeuteted das" für Person, die selbst bemeldet hat*/
+/*Fuzzy*/
+"meldungen_hinweis_info_text1_infected" = "Dit betekent niet dat iemand besmet is. Maar het is belangrijk dat alle personen die je ontmoet hebt, zich over redelijke maatregelen kan informeren.";
+
+/*Titel der Nachricht, die auf Beta-Status Hinweist*/
+"preview_warning_title" = "Voorbeeld Versie";
+
+/*Text der Nachricht, die auf Beta-Status Hinweist*/
+"preview_warning_text" = "Deze App dient als voorbeeld, om de DP-3T implementatie te tonen. Het is geen productie-waardige COVID-19 Tracer.";

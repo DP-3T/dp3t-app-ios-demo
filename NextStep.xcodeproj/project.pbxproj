@@ -156,6 +156,8 @@
 		24780B592431B5A9003BB26C /* NSTracingLocalPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTracingLocalPush.swift; sourceTree = "<group>"; };
 		24D5EF672448CAB900C197D6 /* NSUIStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUIStateManager.swift; sourceTree = "<group>"; };
 		24D5EF692448CAE800C197D6 /* NSUIStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUIStateModel.swift; sourceTree = "<group>"; };
+		63B4D409244C4EBC008A172C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		63B4D40A244C4EBC008A172C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E1771532440B09A0008D73D /* NSCodeInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCodeInputViewController.swift; sourceTree = "<group>"; };
 		6E1771552440B5140008D73D /* NSCodeInputControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCodeInputControl.swift; sourceTree = "<group>"; };
 		6E6E516E242F4FE0006E532E /* NSConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSConfigManager.swift; sourceTree = "<group>"; };
@@ -794,6 +796,7 @@
 				de,
 				it,
 				Base,
+				nl,
 			);
 			mainGroup = 8E81CC8C241FCC7D006F2437;
 			packageReferences = (
@@ -1031,6 +1034,7 @@
 				DC9A81A5242CE5E000AD1548 /* en */,
 				DC9A81A7242CE5E000AD1548 /* it */,
 				DC9A81A9242CE5E000AD1548 /* fr */,
+				63B4D409244C4EBC008A172C /* nl */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1042,6 +1046,7 @@
 				DC9A81A6242CE5E000AD1548 /* en */,
 				DC9A81A8242CE5E000AD1548 /* it */,
 				DC9A81AA242CE5E000AD1548 /* fr */,
+				63B4D40A244C4EBC008A172C /* nl */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
