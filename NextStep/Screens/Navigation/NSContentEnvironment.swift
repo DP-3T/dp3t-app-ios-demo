@@ -12,21 +12,21 @@ struct NSContentEnvironment {
 
     /// Showcase of a generic tracer, independent of COVID-19
     var isGenericTracer: Bool {
-        return false
+        false
     }
 
     /// Showcase of a tracer of COVID-19 infections
     var isCOVIDTracer: Bool {
-        return true
+        true
     }
 
     /// If the app should ask for symptoms, otherwise an positive test for COVID-19 is assumed or required
     var hasSymptomInputs: Bool {
-        return false
+        false
     }
 
     /// If additional tabs with information content should be visible
     var hasTabBar: Bool {
-        return false
+        false
     }
 }

@@ -16,7 +16,7 @@ class NSWebViewController: NSViewController {
 
     private var url: URL {
         get {
-            return NSBackendEnvironment.current.staticApiBaseURL.appendingPathComponent(site)
+            NSBackendEnvironment.current.staticApiBaseURL.appendingPathComponent(site)
         }
 
         set {}

@@ -80,7 +80,7 @@ class NSModuleBaseView: UIControl {
     }
 
     func sectionViews() -> [UIView] {
-        return []
+        []
     }
 
     override var isHighlighted: Bool {

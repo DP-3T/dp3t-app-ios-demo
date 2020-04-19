@@ -30,7 +30,7 @@ public struct UBKeychainStored {
     /// :nodoc:
     public var wrappedValue: String? {
         get {
-            return UBKeychain.get(key)
+            UBKeychain.get(key)
         }
         set {
             guard let newValue = newValue else { return }

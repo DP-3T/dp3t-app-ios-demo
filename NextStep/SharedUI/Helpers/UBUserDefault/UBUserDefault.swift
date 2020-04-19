@@ -33,7 +33,7 @@ public struct UBUserDefault<T: UBUserDefaultValue> {
     /// :nodoc:
     public var wrappedValue: T {
         get {
-            return T.retrieve(from: userDefaults, key: key, defaultValue: defaultValue)
+            T.retrieve(from: userDefaults, key: key, defaultValue: defaultValue)
         }
         set {
             newValue.store(in: userDefaults, key: key)

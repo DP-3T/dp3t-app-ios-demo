@@ -45,7 +45,7 @@ class NSBegegnungenModuleView: NSModuleBaseView {
     }
 }
 
-//// MARK: - Handshake Count View
+/// / MARK: - Handshake Count View
 //
 // private class NSHandshakesModuleCountView: UIView {
 //    // State
@@ -120,7 +120,7 @@ class NSBegegnungenModuleView: NSModuleBaseView {
 //    }
 // }
 //
-//// MARK: - Kontakt Gemeldet View
+/// / MARK: - Kontakt Gemeldet View
 //
 // class NSHandshakesModuleKontaktGemeldetView: UIView {
 //    private let iconImageView = UIImageView()

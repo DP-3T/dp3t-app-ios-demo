@@ -7,7 +7,7 @@ import UIKit
 
 class NSUIStateManager: NSObject {
     static var shared: NSUIStateManager {
-        return NSTracingManager.shared.uiStateManager
+        NSTracingManager.shared.uiStateManager
     }
 
     var tracingStartError: Error? { didSet { refresh() } }

@@ -66,11 +66,11 @@ public enum NSLabelType: UBLabelType {
     }
 
     public var hyphenationFactor: Float {
-        return 1.0
+        1.0
     }
 
     public var lineBreakMode: NSLineBreakMode {
-        return .byTruncatingTail
+        .byTruncatingTail
     }
 }
 

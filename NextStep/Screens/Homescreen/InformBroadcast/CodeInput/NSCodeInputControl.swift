@@ -118,7 +118,7 @@ class NSCodeControl: UIView {
     }
 
     override func resignFirstResponder() -> Bool {
-        return currentControl?.resignFirstResponder() ?? false
+        currentControl?.resignFirstResponder() ?? false
     }
 
     // MARK: - Protocol
@@ -154,11 +154,11 @@ class NSCodeSingleControl: UIView, UITextFieldDelegate {
     // MARK: - Checks/Code
 
     public func codeIsSet() -> Bool {
-        return (textView.text ?? "").replacingOccurrences(of: emptyCharacter, with: "").count > 0
+        (textView.text ?? "").replacingOccurrences(of: emptyCharacter, with: "").count > 0
     }
 
     public func code() -> String? {
-        return textView.text?.replacingOccurrences(of: emptyCharacter, with: "")
+        textView.text?.replacingOccurrences(of: emptyCharacter, with: "")
     }
 
     // MARK: - First responder
@@ -217,7 +217,7 @@ class NSCodeSingleControl: UIView, UITextFieldDelegate {
     // MARK: - Textfield Delegate
 
     func textField(_: UITextField, shouldChangeCharactersIn _: NSRange, replacementString string: String) -> Bool {
-        return string != " "
+        string != " "
     }
 
     @objc private func editingChanged(sender: UITextField) {
