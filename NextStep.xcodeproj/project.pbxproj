@@ -1204,13 +1204,13 @@
 				CODE_SIGN_ENTITLEMENTS = "NextStep/Supporting Files/NextStep.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/NextStep/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = test.noiapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1224,13 +1224,13 @@
 				CODE_SIGN_ENTITLEMENTS = "NextStep/Supporting Files/NextStep.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/NextStep/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = test.noiapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1348,13 +1348,13 @@
 				CODE_SIGN_ENTITLEMENTS = "NextStep/Supporting Files/NextStep.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/NextStep/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = test.noiapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1480,13 +1480,13 @@
 				CODE_SIGN_ENTITLEMENTS = "NextStep/Supporting Files/NextStep.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "${BUILD_NUMBER}";
-				DEVELOPMENT_TEAM = JH7CQD4MLU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/NextStep/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = test.noiapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
