@@ -54,10 +54,6 @@ class NSTracingManager: NSObject {
                 NSUIStateManager.shared.tracingStartError = error
             }
 
-            UBPushManager.shared.requestPushPermissions { _ in
-                // ensure that push works even if onboarding has not worked
-            }
-
             central = CBCentralManager(delegate: self, queue: nil)
         }
 
