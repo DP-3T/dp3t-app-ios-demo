@@ -115,10 +115,10 @@ class NSDebugScreenSDKStatusView: NSSimpleModuleBaseView {
     }
 
     private func handshakes(_ n: Int?) -> String {
-        return (n == nil) ? "–" : String(n!)
+        (n == nil) ? "–" : String(n!)
     }
 
     private func yesOrNo(_ value: Bool) -> String {
-        return (value ? "debug_sdk_state_boolean_true" : "debug_sdk_state_boolean_false").ub_localized
+        (value ? "debug_sdk_state_boolean_true" : "debug_sdk_state_boolean_false").ub_localized
     }
 }
