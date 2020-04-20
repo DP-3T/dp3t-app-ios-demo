@@ -134,37 +134,9 @@
 /*Schliessen*/
 "close" = "Fermer";
 
-/*App Name ohne COVID-19*/
-"app_name_star" = "Next Step";
-
-/*Info Text ohne COVID-19*/
-"homescreen_handshakes_module_info_label_star" = "Il n'y a actuellement aucun signal d'autres utilisateurs qui étaient récemment à proximité.";
-
-/*Text bei aktivierung ohne COVID-19*/
-"homescreen_handshakes_module_gemeldet_label_star" = "Un utilisateur qui était à proximité a récemment activé un signal.";
-
-/*Informieren Titel ohne COVID-19*/
-"inform_title_homescreen_star" = "Diffusion";
-
-/*Informieren Info Text ohne COVID-19*/
-"inform_text_homescreen_star" = "Envoyez un signal aux utilisateurs que vous avez rencontrés récemment.";
-
-/*Übertitel für Broadcast ohne COVID-19*/
-"inform_heading_homescreen_star" = " ";
-
-/*Titel für Broadcast Screen ohne COVID-19*/
-"inform_broadcast_title_star" = "Diffusion";
-
-/*Text für Broadcast ohne COVID-19*/
-"inform_broadcast_long_text_star" = "Envoyez un signal à tous les utilisateurs qui ont été à proximité de vous récemment. Cela signifie que ni votre position ni vos données privées ne seront publiées.";
-
-/*Danke Text ohne COVID-19*/
-"inform_send_thankyou_text_star" = "Votre signal a été transmis et est désormais visible aux autres utilisateurs s'ils se trouvaient récemment à proximité. Vous n'avez pas partagé votre position ou vos données privées.";
-
 /*Begegnungen*/
 "begegnungen_counter_title" = "Synchronisations";
 "inform_meldung_time" = "Publié le {date}";
-"homescreen_inform_module_gemeldet_label_star" = "Vous avez envoyé un signal à tous les utilisateurs que vous avez rencontrés récemment.";
 "homescreen_inform_module_gemeldet_label" = "Vous avez informé tous les utilisateurs que vous avez rencontrés récemment.";
 
 /*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/

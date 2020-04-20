@@ -65,13 +65,8 @@ class NSSendViewController: NSInformBottomButtonViewController {
     }
 
     private func setupTested() {
-        if NSContentEnvironment.current.isGenericTracer {
-            titleLabel.text = "inform_broadcast_title_star".ub_localized
-            textLabel.text = "inform_broadcast_long_text_star".ub_localized
-        } else {
-            titleLabel.text = "inform_button_positive_title".ub_localized
-            textLabel.text = "inform_positive_long_text".ub_localized
-        }
+        titleLabel.text = "inform_button_positive_title".ub_localized
+        textLabel.text = "inform_positive_long_text".ub_localized
 
         bottomButtonTitle = "inform_continue_button".ub_localized
 

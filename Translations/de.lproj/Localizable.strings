@@ -133,37 +133,9 @@
 /*Schliessen*/
 "close" = "Schliessen";
 
-/*App Name ohne COVID-19*/
-"app_name_star" = "Next Step";
-
-/*Info Text ohne COVID-19*/
-"homescreen_handshakes_module_info_label_star" = "Zur Zeit hat kein Nutzer, der kürzlich in deiner Nähe war, ein Signal aktiviert.";
-
-/*Text bei aktivierung ohne COVID-19*/
-"homescreen_handshakes_module_gemeldet_label_star" = "Ein Nutzer, der kürzlich in deiner Nähe war, hat ein Signal aktiviert.";
-
-/*Informieren Titel ohne COVID-19*/
-"inform_title_homescreen_star" = "Broadcast";
-
-/*Informieren Info Text ohne COVID-19*/
-"inform_text_homescreen_star" = "Sende ein Signal an Nutzer, denen du kürzlich begegnet bist.";
-
-/*Übertitel für Broadcast ohne COVID-19*/
-"inform_heading_homescreen_star" = " ";
-
-/*Titel für Broadcast Screen ohne COVID-19*/
-"inform_broadcast_title_star" = "Broadcast";
-
-/*Text für Broadcast ohne COVID-19*/
-"inform_broadcast_long_text_star" = "Sende ein Signal an alle Nutzer, die kürzlich in deiner Nähe waren. Dadurch werden weder deine Position noch private Daten veröffentlicht.";
-
-/*Danke Text ohne COVID-19*/
-"inform_send_thankyou_text_star" = "Dein Signal wurde übermittelt und ist für andere Nutzer nun sichtbar, falls sie kürzlich in deiner Nähe waren. Deine Position oder private Daten hast du dadurch nicht geteilt.";
-
 /*Begegnungen*/
 "begegnungen_counter_title" = "Synchronisationen";
 "inform_meldung_time" = "Meldung vom {date}";
-"homescreen_inform_module_gemeldet_label_star" = "Du hast ein Signal an alle Nutzer gesendet, denen du in letzter Zeit begegnet bist.";
 "homescreen_inform_module_gemeldet_label" = "Du hast alle Nutzer informiert, denen du in letzter Zeit begegnet bist.";
 
 /*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/

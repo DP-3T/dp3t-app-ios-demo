@@ -29,11 +29,7 @@ class NSInformModuleView: NSModuleBaseView {
     override init() {
         super.init()
 
-        if NSContentEnvironment.current.isGenericTracer {
-            headerTitle = "inform_title_homescreen_star".ub_localized
-        } else {
-            headerTitle = "inform_title_homescreen".ub_localized
-        }
+        headerTitle = "inform_title_homescreen".ub_localized
     }
 
     required init?(coder _: NSCoder) {
@@ -87,13 +83,10 @@ private class NSInformModuleCTAView: UIView {
             make.edges.equalToSuperview().inset(NSPadding.medium)
         }
 
-        switch (NSContentEnvironment.current.hasSymptomInputs, NSContentEnvironment.current.isGenericTracer) {
-        case (true, false):
+        if NSContentEnvironment.current.hasSymptomInputs {
             infoLabel.text = "inform_text_homescreen".ub_localized
-        case (false, false):
+        } else {
             infoLabel.text = "inform_text_homescreen_nosymptoms".ub_localized
-        case (_, true):
-            infoLabel.text = "inform_text_homescreen_star".ub_localized
         }
 
         informButton.touchUpCallback = {
@@ -161,11 +154,7 @@ class NSInformModuleMeldungView: UIView {
     init() {
         super.init(frame: .zero)
 
-        if NSContentEnvironment.current.isGenericTracer {
-            gemeldetLabel.text = "homescreen_inform_module_gemeldet_label_star".ub_localized
-        } else {
-            gemeldetLabel.text = "homescreen_inform_module_gemeldet_label".ub_localized
-        }
+        gemeldetLabel.text = "homescreen_inform_module_gemeldet_label".ub_localized
 
         setupLayout()
     }
