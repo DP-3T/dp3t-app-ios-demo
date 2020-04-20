@@ -208,7 +208,7 @@ class NSCodeSingleControl: UIView, UITextFieldDelegate {
         textView.font = NSLabelType.title.font
         textView.textAlignment = .center
         textView.textColor = .ns_text
-        textView.autocapitalizationType = .allCharacters
+        textView.keyboardType = .numberPad
 
         textView.addTarget(self, action: #selector(editingChanged(sender:)), for: .editingChanged)
         textView.delegate = self
