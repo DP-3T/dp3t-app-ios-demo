@@ -9,6 +9,7 @@ import UIKit
 class NSButton: UBButton {
     enum Style {
         case primary, secondary, primaryOutline, secondaryOutline
+        case outline(UIColor)
 
         var textColor: UIColor {
             switch self {
@@ -18,6 +19,8 @@ class NSButton: UBButton {
                 return .ns_primary
             case .secondaryOutline:
                 return .ns_secondary
+            case let .outline(c):
+                return c
             }
         }
 
@@ -27,7 +30,7 @@ class NSButton: UBButton {
                 return .ns_primary
             case .secondary:
                 return .ns_secondary
-            case .primaryOutline, .secondaryOutline:
+            case .primaryOutline, .secondaryOutline, .outline:
                 return .white
             }
         }
@@ -38,6 +41,8 @@ class NSButton: UBButton {
                 return .ns_primary
             case .secondaryOutline:
                 return .ns_secondary
+            case let .outline(c):
+                return c
             default:
                 return .clear
             }
@@ -51,6 +56,17 @@ class NSButton: UBButton {
                 return UIColor.ns_primary.withAlphaComponent(0.15)
             case .secondaryOutline:
                 return UIColor.ns_secondary.withAlphaComponent(0.15)
+            case let .outline(c):
+                return c.withAlphaComponent(0.15)
+            }
+        }
+
+        var isUppercase: Bool {
+            switch self {
+            case .primaryOutline, .outline:
+                return true
+            default:
+                return false
             }
         }
     }
@@ -70,11 +86,8 @@ class NSButton: UBButton {
 
         super.init()
 
-        if style == .primaryOutline {
-            self.title = title.uppercased()
-        } else {
-            self.title = title
-        }
+        self.title = style.isUppercase ? title.uppercased() : title
+
         titleLabel?.font = NSLabelType.button.font
         setTitleColor(style.textColor, for: .normal)
         backgroundColor = style.backgroundColor

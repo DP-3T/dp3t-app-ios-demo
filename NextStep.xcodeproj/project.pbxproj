@@ -46,6 +46,10 @@
 		24D5EF6A2448CAE800C197D6 /* NSUIStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5EF692448CAE800C197D6 /* NSUIStateModel.swift */; };
 		6E1771542440B09A0008D73D /* NSCodeInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1771532440B09A0008D73D /* NSCodeInputViewController.swift */; };
 		6E1771562440B5140008D73D /* NSCodeInputControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1771552440B5140008D73D /* NSCodeInputControl.swift */; };
+		6E3F65F72449B61A00980A4E /* NSDebugscreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F65F62449B61A00980A4E /* NSDebugscreenViewController.swift */; };
+		6E3F65F92449CC9F00980A4E /* NSDebugScreenMockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F65F82449CC9F00980A4E /* NSDebugScreenMockView.swift */; };
+		6E3F65FB2449CF0900980A4E /* NSSimpleModuleBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F65FA2449CF0900980A4E /* NSSimpleModuleBaseView.swift */; };
+		6E3F65FD2449F31D00980A4E /* NSDebugScreenSDKStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F65FC2449F31D00980A4E /* NSDebugScreenSDKStatusView.swift */; };
 		6E6E516F242F4FE0006E532E /* NSConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E516E242F4FE0006E532E /* NSConfigManager.swift */; };
 		6E6E5171242F5026006E532E /* NSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E5170242F5026006E532E /* NSConfig.swift */; };
 		6E6E5184242F9586006E532E /* NSInformThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E517E242F9586006E532E /* NSInformThankYouViewController.swift */; };
@@ -158,6 +162,10 @@
 		24D5EF692448CAE800C197D6 /* NSUIStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUIStateModel.swift; sourceTree = "<group>"; };
 		6E1771532440B09A0008D73D /* NSCodeInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCodeInputViewController.swift; sourceTree = "<group>"; };
 		6E1771552440B5140008D73D /* NSCodeInputControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCodeInputControl.swift; sourceTree = "<group>"; };
+		6E3F65F62449B61A00980A4E /* NSDebugscreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDebugscreenViewController.swift; sourceTree = "<group>"; };
+		6E3F65F82449CC9F00980A4E /* NSDebugScreenMockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDebugScreenMockView.swift; sourceTree = "<group>"; };
+		6E3F65FA2449CF0900980A4E /* NSSimpleModuleBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSimpleModuleBaseView.swift; sourceTree = "<group>"; };
+		6E3F65FC2449F31D00980A4E /* NSDebugScreenSDKStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDebugScreenSDKStatusView.swift; sourceTree = "<group>"; };
 		6E6E516E242F4FE0006E532E /* NSConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSConfigManager.swift; sourceTree = "<group>"; };
 		6E6E5170242F5026006E532E /* NSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSConfig.swift; sourceTree = "<group>"; };
 		6E6E517E242F9586006E532E /* NSInformThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSInformThankYouViewController.swift; sourceTree = "<group>"; };
@@ -508,6 +516,7 @@
 		24780B18242DFD98003BB26C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				6E3F65FA2449CF0900980A4E /* NSSimpleModuleBaseView.swift */,
 				24780B19242DFDAE003BB26C /* NSModuleBaseView.swift */,
 				AAF73662242F2DC90051E34A /* NSModuleHeaderView.swift */,
 				6E6E5191243121D2006E532E /* NSErrorView.swift */,
@@ -529,6 +538,16 @@
 				2443947A2445F062003ED582 /* NSHeaderArcView.swift */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		6E3F65F52449B5F000980A4E /* Debugscreen */ = {
+			isa = PBXGroup;
+			children = (
+				6E3F65F62449B61A00980A4E /* NSDebugscreenViewController.swift */,
+				6E3F65F82449CC9F00980A4E /* NSDebugScreenMockView.swift */,
+				6E3F65FC2449F31D00980A4E /* NSDebugScreenSDKStatusView.swift */,
+			);
+			path = Debugscreen;
 			sourceTree = "<group>";
 		};
 		6E7C0D23242D01860017C4F9 /* Font */ = {
@@ -647,6 +666,7 @@
 				2443948024463B01003ED582 /* Homescreen */,
 				24780AF7242DF807003BB26C /* InfoTabs */,
 				24780AF6242DF801003BB26C /* Onboarding */,
+				6E3F65F52449B5F000980A4E /* Debugscreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -957,6 +977,7 @@
 				6E7C0D43242E44D80017C4F9 /* NSWebViewController.swift in Sources */,
 				6E1771542440B09A0008D73D /* NSCodeInputViewController.swift in Sources */,
 				6EFB097B2445C2210097BD3D /* NSPointTextView.swift in Sources */,
+				6E3F65FD2449F31D00980A4E /* NSDebugScreenSDKStatusView.swift in Sources */,
 				6E6E5185242F9586006E532E /* NSCheckboxControl.swift in Sources */,
 				6E7C0D45242E4AA90017C4F9 /* NSLoadingView.swift in Sources */,
 				6E6E5188242F9586006E532E /* NSSendViewController.swift in Sources */,
@@ -988,6 +1009,7 @@
 				24780B30242F3EAF003BB26C /* NSInformBottomButtonViewController.swift in Sources */,
 				6E6E5189242F9586006E532E /* NSInformNoSymptomsViewController.swift in Sources */,
 				DC702B22243F70C80066C773 /* UBPushManagerError.swift in Sources */,
+				6E3F65F72449B61A00980A4E /* NSDebugscreenViewController.swift in Sources */,
 				24780B11242DFD2F003BB26C /* NSMeldungModuleView.swift in Sources */,
 				6E6E516F242F4FE0006E532E /* NSConfigManager.swift in Sources */,
 				6E6E5184242F9586006E532E /* NSInformThankYouViewController.swift in Sources */,
@@ -1000,8 +1022,10 @@
 				24780B1C242DFE18003BB26C /* NSInfoViewController.swift in Sources */,
 				DC702B0A243F6FAE0066C773 /* UBOptionalUserDefault.swift in Sources */,
 				24780B09242DFCE4003BB26C /* Model.swift in Sources */,
+				6E3F65FB2449CF0900980A4E /* NSSimpleModuleBaseView.swift in Sources */,
 				DC702B0F243F6FAE0066C773 /* UBKeychainStored.swift in Sources */,
 				DC702B1F243F70C80066C773 /* UBPushHandler.swift in Sources */,
+				6E3F65F92449CC9F00980A4E /* NSDebugScreenMockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
