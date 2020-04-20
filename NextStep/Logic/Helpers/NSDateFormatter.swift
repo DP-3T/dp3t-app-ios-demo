@@ -8,7 +8,6 @@ import Foundation
 
 /// Convenience for converting dates into user-displayable strings in a unified form.
 extension DateFormatter {
-    
     private static let dateFormatter: DateFormatter = {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
