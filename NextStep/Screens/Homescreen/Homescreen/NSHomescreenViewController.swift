@@ -18,6 +18,7 @@ class NSHomescreenViewController: NSViewController {
     private let meldungView = NSMeldungView()
 
     private let informButton = NSButton(title: "inform_button_title".ub_localized, style: .primaryOutline)
+    private let debugScreenButton = NSButton(title: "debug_settings_title".ub_localized, style: .outline(.ns_error))
 
     // MARK: - View
 
@@ -113,6 +114,22 @@ class NSHomescreenViewController: NSViewController {
 
         let previewWarning = NSBluetoothSettingsDetailView(title: "preview_warning_title".ub_localized, subText: "preview_warning_text".ub_localized, image: UIImage(named: "ic-error")!, titleColor: .gray, subtextColor: .gray)
         stackScrollView.addArrangedView(previewWarning)
+
+        stackScrollView.addSpacerView(NSPadding.large)
+
+        let debugScreenContainer = UIView()
+        debugScreenContainer.addSubview(debugScreenButton)
+        debugScreenButton.snp.makeConstraints { make in
+            make.top.bottom.centerX.equalToSuperview()
+        }
+
+        debugScreenButton.touchUpCallback = { [weak self] in
+            guard let strongSelf = self else { return }
+            strongSelf.presentDebugScreen()
+        }
+
+        stackScrollView.addArrangedView(debugScreenContainer)
+
         stackScrollView.addSpacerView(NSPadding.large)
 
         handshakesModuleView.alpha = 0
@@ -170,5 +187,9 @@ class NSHomescreenViewController: NSViewController {
             onboardingViewController.modalPresentationStyle = .fullScreen
             present(onboardingViewController, animated: false)
         }
+    }
+
+    private func presentDebugScreen() {
+        navigationController?.pushViewController(NSDebugscreenViewController(), animated: true)
     }
 }

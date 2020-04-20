@@ -68,6 +68,11 @@ class NSTracingManager: NSObject {
         DP3TTracing.stopTracing()
     }
 
+    func resetSDK() {
+        try? DP3TTracing.reset()
+        NSUIStateManager.shared.overwrittenInfectionState = nil
+    }
+
     func userHasCompletedOnboarding() {
         do {
             try DP3TTracing.startTracing()

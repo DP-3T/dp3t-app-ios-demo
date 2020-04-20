@@ -6,15 +6,17 @@
 
 import Foundation
 
-final class NSDateFormatter {
+/// Convenience for converting dates into user-displayable strings in a unified form.
+extension DateFormatter {
+    
     private static let dateFormatter: DateFormatter = {
-        let df = DateFormatter()
-        df.locale = Locale(identifier: "de_CH")
-        df.setLocalizedDateFormatFromTemplate("dd.MM.yyyy, HH:mm")
-        return df
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .short
+        return dateFormatter
     }()
 
-    static func getDateTimeString(from date: Date) -> String {
+    static func ub_string(from date: Date) -> String {
         dateFormatter.string(from: date)
     }
 }

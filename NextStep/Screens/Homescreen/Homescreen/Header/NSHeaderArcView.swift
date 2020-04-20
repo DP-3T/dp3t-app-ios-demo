@@ -5,9 +5,8 @@
  */
 
 import Foundation
-
-import MapKit
 import SnapKit
+import UIKit
 
 class NSHeaderArcView: UIView {
     var angle: CGFloat = 0.0 {

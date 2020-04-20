@@ -18,6 +18,8 @@ class NSCheckBoxView: UIView {
 
     public var touchUpCallback: (() -> Void)?
 
+    public var radioMode: Bool = false
+
     // MARK: - Init
 
     init(text: String) {
@@ -36,8 +38,11 @@ class NSCheckBoxView: UIView {
     private func setup() {
         button.touchUpCallback = { [weak self] in
             guard let strongSelf = self else { return }
-            strongSelf.isChecked = !strongSelf.isChecked
-            strongSelf.touchUpCallback?()
+
+            if strongSelf.radioMode, !strongSelf.isChecked {
+                strongSelf.isChecked = !strongSelf.isChecked
+                strongSelf.touchUpCallback?()
+            }
         }
 
         button.backgroundColor = .clear
@@ -52,7 +57,7 @@ class NSCheckBoxView: UIView {
         addSubview(checkBox)
         checkBox.snp.makeConstraints { make in
             make.left.equalToSuperview()
-            make.top.equalToSuperview().inset(5.0)
+            make.centerY.equalToSuperview()
             make.bottom.lessThanOrEqualToSuperview()
         }
 
@@ -62,7 +67,7 @@ class NSCheckBoxView: UIView {
 
         textLabel.snp.makeConstraints { make in
             make.left.equalTo(checkBox.snp.right).offset(NSPadding.medium + NSPadding.small)
-            make.top.equalToSuperview()
+            make.top.equalToSuperview().offset(2.0)
             make.bottom.right.equalToSuperview().inset(NSPadding.small)
         }
     }

@@ -129,7 +129,7 @@ private class NSInformModuleCTAView: UIView {
             informButton.setTitle("inform_button_title_again".ub_localized, for: .normal)
 
         case let .gemeldet(lastMeldungTime: .some(date)):
-            lastMeldungLabel.text = "inform_last_meldung_text".ub_localized.replacingOccurrences(of: "{date}", with: NSDateFormatter.getDateTimeString(from: date))
+            lastMeldungLabel.text = "inform_last_meldung_text".ub_localized.replacingOccurrences(of: "{date}", with: DateFormatter.ub_string(from: date))
             lastMeldungLabel.isHidden = false
 
             informButton.style = .secondaryOutline
@@ -149,7 +149,7 @@ class NSInformModuleMeldungView: UIView {
     var timestamp: Date? {
         didSet {
             if let t = timestamp {
-                timestampLabel.text = "inform_meldung_time".ub_localized.replacingOccurrences(of: "{date}", with: NSDateFormatter.getDateTimeString(from: t))
+                timestampLabel.text = "inform_meldung_time".ub_localized.replacingOccurrences(of: "{date}", with: DateFormatter.ub_string(from: t))
             } else {
                 timestampLabel.text = nil
             }

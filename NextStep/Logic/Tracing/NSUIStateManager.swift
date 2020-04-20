@@ -30,6 +30,10 @@ class NSUIStateManager: NSObject {
 
     var tracingState: TracingState?
 
+    var overwrittenInfectionState: InfectionStatus? {
+        didSet { refresh() }
+    }
+
     var tracingIsActivated: Bool {
         NSTracingManager.shared.isActivated
     }
@@ -122,7 +126,12 @@ class NSUIStateManager: NSObject {
         }
 
         if let tracingState = tracingState {
-            switch tracingState.infectionStatus {
+            var infectionStatus = tracingState.infectionStatus
+            if let os = overwrittenInfectionState {
+                infectionStatus = os
+            }
+
+            switch infectionStatus {
             case .healthy:
                 break
             case .infected:
@@ -136,6 +145,9 @@ class NSUIStateManager: NSObject {
 
             newState.debug.handshakeCount = tracingState.numberOfHandshakes
             newState.debug.lastSync = tracingState.lastSync
+            // add real tracing state of sdk and overwritten state
+            newState.debug.infectionStatus = tracingState.infectionStatus
+            newState.debug.overwrittenInfectionState = overwrittenInfectionState
         }
 
         return newState
