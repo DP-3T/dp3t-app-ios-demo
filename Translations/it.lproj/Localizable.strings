@@ -134,41 +134,13 @@
 /*Schliessen*/
 "close" = "Schliessen";
 
-/*App Name ohne COVID-19*/
-"app_name_star" = "Next Step";
-
-/*Info Text ohne COVID-19*/
-"homescreen_handshakes_module_info_label_star" = "Zur Zeit hat kein Nutzer, der kürzlich in deiner Nähe war, ein Signal aktiviert.";
-
-/*Text bei aktivierung ohne COVID-19*/
-"homescreen_handshakes_module_gemeldet_label_star" = "Ein Nutzer, der kürzlich in deiner Nähe war, hat ein Signal aktiviert.";
-
-/*Informieren Titel ohne COVID-19*/
-"inform_title_homescreen_star" = "Broadcast";
-
-/*Informieren Info Text ohne COVID-19*/
-"inform_text_homescreen_star" = "Sende ein Signal an Nutzer, denen du kürzlich begegnet bist.";
-
-/*Übertitel für Broadcast ohne COVID-19*/
-"inform_heading_homescreen_star" = " ";
-
-/*Titel für Broadcast Screen ohne COVID-19*/
-"inform_broadcast_title_star" = "Broadcast";
-
-/*Text für Broadcast ohne COVID-19*/
-"inform_broadcast_long_text_star" = "Sende ein Signal an alle Nutzer, die kürzlich in deiner Nähe waren. Dadurch werden weder deine Position noch private Daten veröffentlicht.";
-
-/*Danke Text ohne COVID-19*/
-"inform_send_thankyou_text_star" = "Dein Signal wurde übermittelt und ist für andere Nutzer nun sichtbar, falls sie kürzlich in deiner Nähe waren. Deine Position oder private Daten hast du dadurch nicht geteilt.";
-
 /*Begegnungen*/
 "begegnungen_counter_title" = "Synchronisationen";
 "inform_meldung_time" = "Meldung vom {date}";
-"homescreen_inform_module_gemeldet_label_star" = "Du hast ein Signal an alle Nutzer gesendet, denen du in letzter Zeit begegnet bist.";
 "homescreen_inform_module_gemeldet_label" = "Du hast alle Nutzer informiert, denen du in letzter Zeit begegnet bist.";
 
 /*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
-"push_exposed_title" = "Update verfügbar";
+"push_exposed_title" = "Neue Informationen verfügbar";
 
 /*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
 "push_exposed_text" = "Bitte öffne die App für weitere Informationen.";
@@ -357,3 +329,60 @@
 
 /*Text der Nachricht, die auf Beta-Status Hinweist*/
 "preview_warning_text" = "Diese App dient als Vorschau, um die DP-3T Implementation zu zeigen. Es ist kein produktiv verwendbarer COVID-19 Tracer.";
+
+/*Label auf dem Button, der zum Debug-Screen führt*/
+"debug_settings_title" = "Debug Einstellungen";
+
+/*Titel für die Debug-Einstellungen zur Status-Überschreibung*/
+"debug_state_setting_title" = "App-Zustand überschreiben";
+
+/*Erklärungstext für die Debug-Einstellungen zur Status-Überschreibung*/
+"debug_state_setting_text" = "Diese Einstellung überschreibt den visuellen Zustand der App. Die Tracing-Funktionalität wird davon nicht beeinflusst.";
+
+/*Einstellungs-Option zum überschreiben des App-Zustands: Keine*/
+"debug_state_setting_option_none" = "Keine Überschreibung";
+
+/*Einstellungs-Option zum überschreiben des App-Zustands: Gesund*/
+"debug_state_setting_option_ok" = "Gesund";
+
+/*Einstellungs-Option zum überschreiben des App-Zustands: Einem positiven Kontakt ausgesetzt*/
+"debug_state_setting_option_exposed" = "Positiv getesteter Kontakt";
+
+/*Einstellungs-Option zum überschreiben des App-Zustands: Selbst positiv getestet*/
+"debug_state_setting_option_infected" = "Selbst positiv gemeldet";
+
+/*Titel für die Debug-Info zum Tracing-Status*/
+"debug_sdk_state_title" = "SDK Status";
+
+/*Erklärungstext für die Debug-Info zum Tracing-Status*/
+"debug_sdk_state_text" = "Der aktuelle Zustand des DP-3T SDKs.";
+
+/*Bezeichnung für den aktiven SDK Status*/
+"debug_sdk_state_active" = "wird ausgeführt";
+
+/*Bezeichnung für den inaktiven SDK Status*/
+"debug_sdk_state_inactive" = "wird nicht ausgeführt";
+
+/*Bezeichnung für den letzen sync-Zeitpunkt*/
+"debug_sdk_state_last_synced" = "Letzte Synchronisation: ";
+
+/*Bezeichnung für den Fall, bei dem der User selber als positiv getestet gemeldet wurde*/
+"debug_sdk_state_self_exposed" = "Selbst gemeldet: ";
+
+/*Bezeichnung für den Fall, bei dem ein Kontakt als positiv getestet gemeldet wurde*/
+"debug_sdk_state_contact_exposed" = "Kontakt gemeldet: ";
+
+/*Bezeichnung für die Anzahl bluetooth-handshakes, die ausgeführt wurden*/
+"debug_sdk_state_number_handshakes" = "Anzahl handshakes: ";
+
+/*Debug-Status-Bezeichnung für boleschen Wert 'true'*/
+"debug_sdk_state_boolean_true" = "ja";
+
+/*Debug-Status-Bezeichnung für boleschen Wert 'false'*/
+"debug_sdk_state_boolean_false" = "nein";
+
+/*Button-Text für das Zurücksetzen des lokalen SDK Zustandes*/
+"debug_sdk_button_reset" = "SDK zurücksetzen";
+
+/*Infotext, wenn lokal das SDK zurückgesetzt wurde*/
+"debug_sdk_reset_text" = "Der lokale Stand des DP-3T SDK wurde zurückgesetzt.";

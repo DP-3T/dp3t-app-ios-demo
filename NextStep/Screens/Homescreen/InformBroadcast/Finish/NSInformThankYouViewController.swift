@@ -46,13 +46,8 @@ class NSInformThankYouViewController: NSInformBottomButtonViewController {
             strongSelf.sendPressed()
         }
 
-        if NSContentEnvironment.current.isGenericTracer {
-            titleLabel.text = "inform_send_thankyou".ub_localized
-            textLabel.text = "inform_send_thankyou_text_star".ub_localized
-        } else {
-            titleLabel.text = "inform_send_thankyou".ub_localized
-            textLabel.text = "inform_send_thankyou_text".ub_localized
-        }
+        titleLabel.text = "inform_send_thankyou".ub_localized
+        textLabel.text = "inform_send_thankyou_text".ub_localized
 
         enableBottomButton = true
     }

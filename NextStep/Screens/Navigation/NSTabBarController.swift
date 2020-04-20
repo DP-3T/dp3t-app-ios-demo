@@ -19,19 +19,12 @@ class NSTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if NSContentEnvironment.current.isGenericTracer {
-            viewControllers = [
-                NSHomescreenViewController(),
-                NSAboutViewController(),
-            ]
-        } else {
-            viewControllers = [
-                NSHomescreenViewController(),
-                NSVerhaltenViewController(),
-                NSInfoViewController(),
-                NSAboutViewController(),
-            ]
-        }
+        viewControllers = [
+            NSHomescreenViewController(),
+            NSVerhaltenViewController(),
+            NSInfoViewController(),
+            NSAboutViewController(),
+        ]
     }
 
     override func viewDidAppear(_ animated: Bool) {

@@ -20,11 +20,7 @@ class NSOnboardingViewController: NSViewController {
     private let step5VC = NSOnboardingStepViewController(model: NSOnboardingStepModel(heading: " ", foregroundImage: UIImage(named: "onboarding-3")!, title: "onboarding_title_5".ub_localized, text: "onboarding_desc_5".ub_localized))
 
     private var stepViewControllers: [NSOnboardingContentViewController] {
-        if NSContentEnvironment.current.isGenericTracer {
-            return [step4VC]
-        } else {
-            return [step1VC, step2VC, step3VC, step4VC, step5VC]
-        }
+        return [step1VC, step2VC, step3VC, step4VC, step5VC]
     }
 
     private let finishButton = NSButton(title: "onboarding_finish_button".ub_localized)
@@ -38,12 +34,9 @@ class NSOnboardingViewController: NSViewController {
 
         step4VC.continueButton.touchUpCallback = { [weak self] in
             guard let self = self else { return }
-            if NSContentEnvironment.current.isGenericTracer {
-                self.finishAnimation()
-            } else {
-                self.setOnboardingStep(self.currentStep + 1, animated: true)
-            }
+            self.setOnboardingStep(self.currentStep + 1, animated: true)
         }
+
         step4VC.continueWithoutButton.touchUpCallback = { [weak self] in
             guard let self = self else { return }
             let alert = UIAlertController(title: nil, message: "onboarding_continue_without_popup_text".ub_localized, preferredStyle: .alert)
@@ -69,7 +62,7 @@ class NSOnboardingViewController: NSViewController {
         guard step >= 0, step < stepViewControllers.count else { return }
         let isLast = step == stepViewControllers.count - 1
 
-        if isLast, !NSContentEnvironment.current.isGenericTracer {
+        if isLast {
             finishButton.alpha = 0
             finishButton.transform = CGAffineTransform(translationX: 300, y: 0)
             UIView.animate(withDuration: 0.5, delay: 0.5, options: [.beginFromCurrentState], animations: {
@@ -147,10 +140,6 @@ class NSOnboardingViewController: NSViewController {
         }
         finishButton.touchUpCallback = finishAnimation
         finishButton.alpha = 0
-
-        if NSContentEnvironment.current.isGenericTracer {
-            pageControl.isHidden = true
-        }
     }
 
     private func setupSwipeRecognizers() {

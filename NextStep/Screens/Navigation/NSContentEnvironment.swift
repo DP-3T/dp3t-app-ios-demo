@@ -10,11 +10,6 @@ import Foundation
 struct NSContentEnvironment {
     static let current = NSContentEnvironment()
 
-    /// Showcase of a generic tracer, independent of COVID-19
-    var isGenericTracer: Bool {
-        return false
-    }
-
     /// Showcase of a tracer of COVID-19 infections
     var isCOVIDTracer: Bool {
         return true
