@@ -179,7 +179,7 @@ private class NSAnimatedGraphEdgeLayer: CAShapeLayer {
 
 private extension CGPoint {
     static func makeRandom(in rect: CGRect) -> CGPoint {
-        return CGPoint(
+        CGPoint(
             x: Int(arc4random() % UInt32(rect.width)) - Int(rect.width / 2),
             y: Int(arc4random() % UInt32(rect.height)) - Int(rect.height / 2)
         )

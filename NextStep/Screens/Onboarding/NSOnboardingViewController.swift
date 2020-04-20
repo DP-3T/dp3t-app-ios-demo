@@ -20,7 +20,7 @@ class NSOnboardingViewController: NSViewController {
     private let step5VC = NSOnboardingStepViewController(model: NSOnboardingStepModel(heading: " ", foregroundImage: UIImage(named: "onboarding-3")!, title: "onboarding_title_5".ub_localized, text: "onboarding_desc_5".ub_localized))
 
     private var stepViewControllers: [NSOnboardingContentViewController] {
-        return [step1VC, step2VC, step3VC, step4VC, step5VC]
+        [step1VC, step2VC, step3VC, step4VC, step5VC]
     }
 
     private let finishButton = NSButton(title: "onboarding_finish_button".ub_localized)

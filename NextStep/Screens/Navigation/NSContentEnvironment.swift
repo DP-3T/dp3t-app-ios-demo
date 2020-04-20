@@ -12,11 +12,11 @@ struct NSContentEnvironment {
 
     /// If the app should ask for symptoms, otherwise an positive test for COVID-19 is assumed or required
     var hasSymptomInputs: Bool {
-        return false
+        false
     }
 
     /// If additional tabs with information content should be visible
     var hasTabBar: Bool {
-        return false
+        false
     }
 }

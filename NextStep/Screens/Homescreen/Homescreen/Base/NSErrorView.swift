@@ -54,7 +54,7 @@ class NSErrorView: NSModuleBaseView {
     // MARK: - Section Views
 
     override func sectionViews() -> [UIView] {
-        return [contentView]
+        [contentView]
     }
 
     // MARK: - Error text

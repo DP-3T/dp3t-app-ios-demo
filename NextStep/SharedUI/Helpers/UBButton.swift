@@ -95,7 +95,7 @@ class UBButton: UIButton {
     }
 
     override var isHighlighted: Bool {
-        get { return super.isHighlighted }
+        get { super.isHighlighted }
 
         set(highlighted) {
             setHighlighted(highlighted)
