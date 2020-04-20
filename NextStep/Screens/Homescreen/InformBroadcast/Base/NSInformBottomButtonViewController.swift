@@ -65,9 +65,11 @@ class NSInformBottomButtonViewController: NSInformStepViewController {
 
         button.snp.makeConstraints { make in
             make.top.equalToSuperview().inset(NSPadding.large)
-            make.bottom.equalTo(self.view.safeAreaLayoutGuide)
             make.left.right.lessThanOrEqualToSuperview().inset(NSPadding.medium * 2.0)
             make.centerX.equalToSuperview()
+
+            make.bottom.equalTo(self.view.safeAreaLayoutGuide).priority(.low)
+            make.bottom.lessThanOrEqualTo(self.view.snp.bottom).inset(NSPadding.large)
         }
 
         button.isEnabled = enableBottomButton
