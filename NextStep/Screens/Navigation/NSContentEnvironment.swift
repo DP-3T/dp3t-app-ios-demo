@@ -10,11 +10,6 @@ import Foundation
 struct NSContentEnvironment {
     static let current = NSContentEnvironment()
 
-    /// Showcase of a tracer of COVID-19 infections
-    var isCOVIDTracer: Bool {
-        return true
-    }
-
     /// If the app should ask for symptoms, otherwise an positive test for COVID-19 is assumed or required
     var hasSymptomInputs: Bool {
         return false
