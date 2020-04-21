@@ -13,376 +13,376 @@
 "menu_item_info" = "Info";
 
 /*Title of the menu item tracking*/
-"menu_item_tracking" = "Tracing";
+"menu_item_tracking" = "Tracciamento";
 
 /*Loading View: Erneut laden*/
-"loading_view_reload" = "Erneut laden";
+"loading_view_reload" = "Ricarica";
 
 /*Loading View: Titel*/
-"loading_view_error_title" = "Fehler";
+"loading_view_error_title" = "Errore";
 
 /*Text on grant permission button*/
-"grant_permission_button" = "Erlaubnis erteilen";
+"grant_permission_button" = "Concedi i permessi";
 
 /*Text on grant permission button if permission is granted*/
-"granted_permission_button" = "Erlaubnis erteilt";
+"granted_permission_button" = "Permessi concessi";
 
 /*Sprachen-Key*/
 "language_key" = "it";
 
 /*Force Update Alert Titel*/
-"force_update_title" = "Update";
-"homescreen_handshakes_module_count_info_label" = "Begegnungen werden anonym auf deinem Gerät gespeichert.";
-"homescreen_handshakes_module_count_label_format" = "{count} in den letzten 48h";
-"homescreen_handshakes_module_info_label" = "Hier werden Informationen deiner Begegnungen über COVID-19 angezeigt.";
+"force_update_title" = "Aggiorna";
+"homescreen_handshakes_module_count_info_label" = "Gli incontri sono memorizzati in forma anonima sul tuo telefono";
+"homescreen_handshakes_module_count_label_format" = "{count} nelle ultime 48 ore";
+"homescreen_handshakes_module_info_label" = "Qui vedrai le informazioni sul COVID-19 delle persone che hai incontrato";
 
 /*Informieren Titel*/
-"inform_title" = "Infektionskette unterbrechen";
+"inform_title" = "Ferma la catena di infezione";
 
 /*Inform Subtext*/
-"inform_subtext" = "Ich möchte helfen, die Infektionskette von COVID-19 zu unterbrechen.";
+"inform_subtext" = "Voglio aiutare a fermare la catena di infezione";
 
 /*Inform: Symptome Button*/
-"inform_button_symptom_title" = "Symptome";
+"inform_button_symptom_title" = "Sintomi";
 
 /*Inform: Symptome Button*/
-"inform_button_symptom_text" = "Ich leide aktuell an Symptomen.";
+"inform_button_symptom_text" = "Ho i sintomi";
 
 /*Inform: Button Titel*/
-"inform_button_positive_title" = "Positives Testergebnis";
+"inform_button_positive_title" = "I test sono risultati positivi";
 
 /*Inform Button Positiv*/
-"inform_button_positive_text" = "Ich wurde kürzlich positiv getestet.";
-"what_to_do_button" = "Was tun?";
-"homescreen_handshakes_module_gemeldet_label" = "Eine Person, der du kürzlich begegnet bist, hat über COVID-19 informiert.";
+"inform_button_positive_text" = "I test effettuati recentemente sono risultati positivi";
+"what_to_do_button" = "Cosa devo fare ?";
+"homescreen_handshakes_module_gemeldet_label" = "Una persona che hai incontrato è risultata positiva al COVID-19.";
 
 /*Inform-Flow*/
-"inform_continue_button" = "Weiter";
+"inform_continue_button" = "Avanti";
 
 /*Informieren: Positive Testergebnis*/
-"inform_positive_long_text" = "Ich wurde kürzlich positiv auf COVID-19 getestet.\n\nIch möchte daher eine mögliche Infektionskette verhindern, indem die App Personen, denen ich begegnet bin, anonym benachrichtigt.";
+"inform_positive_long_text" = "Il test per il COVID-19 è risutlato positivo. Voglio evitare potenziali infezioni permettendo all'app di contattare in forma anonima le persone che ho incontrato.";
 
 /*Ich leide an einem oder mehreren der folgenden Symptome:*/
-"inform_symptom_starttext" = "Ich leide an einem oder mehreren der folgenden Symptome:";
+"inform_symptom_starttext" = "Soffro di uno dei seguenti sintomi :";
 
 /*Informieren: Senden Button*/
-"inform_send_button_title" = "Senden";
+"inform_send_button_title" = "Invia";
 
 /*Informieren: Senden Text Symptome*/
-"inform_symptoms_send_text" = "Ich leide an den zuvor erwähnten Symptomen, welche auf COVID-19 hindeuten können.\n\nIch möchte daher eine mögliche Infektionskette verhindern, indem die App Personen, denen ich begegnet bin, anonym benachrichtigt.";
+"inform_symptoms_send_text" = "Soffro dei sintomi elencati, che possono essere attribuiti al COVID-19.\n\nVoglio evitare potenziali infezioni permettendo all\'app di contattare in forma anonima le persone che ho incontrato.";
 
 /*Informieren: Danke*/
-"inform_send_thankyou" = "DANKE!";
-"inform_send_thankyou_text" = "Deine Infos wurden übermittelt.\nDamit leistest du einen wichtigen Beitrag, die Verbreitung des Corona-Virus zu stoppen.";
+"inform_send_thankyou" = "GRAZIE !";
+"inform_send_thankyou_text" = "Le informazioni sono state trasmesse.\nStai dando un importante contributo per impedire la diffusione del COVID-19.";
 
 /*Symptome*/
-"inform_symptom_coughdry" = "Husten (meist trocken)";
+"inform_symptom_coughdry" = "Tosse (prevalentemente secca)";
 
 /*Symptom*/
-"inform_symptom_hals" = "Halsschmerzen";
+"inform_symptom_hals" = "Mal di gola";
 
 /*Symptom*/
-"inform_symptom_kurzatmigkeit" = "Kurzatmigkeit";
+"inform_symptom_kurzatmigkeit" = "Fiato corto";
 
 /*Symptom*/
-"inform_symptom_fieber" = "Fieber, Fiebergefühl";
+"inform_symptom_fieber" = "Febbre";
 
 /*Symptom*/
-"inform_symptom_muskel" = "Muskelschmerzen";
+"inform_symptom_muskel" = "Dolori muscolari";
 
 /*Symptome*/
-"inform_no_symptom" = "Keine der aufgeführten Symptome";
+"inform_no_symptom" = "Nessuno dei sintomi elencati";
 
 /*Text in toast when downloading pdf*/
-"downloading_pdf" = "PDF wird heruntergeladen";
+"downloading_pdf" = "Scarica il PDF";
 
 /*Inform: Empfehlung*/
-"inform_empfehlung" = "Empfehlung";
+"inform_empfehlung" = "Raccomandazioni";
 
 /*Inform: Empfehlung Text*/
-"inform_empfehlung_subtext" = "Eine medizinische Abklärung oder ein Labortest ist nicht angezeigt.\n\nHalten Sie sich an die Hygiene- und Verhaltensregeln.";
+"inform_empfehlung_subtext" = "Un controllo medico o un test di laboratorio al momento non è consigliato.\n\nContinua a praticare le misure di distanziamento sociale e igieniche come richiesto.";
 
 /*Inform: Button Titel*/
-"inform_fertig_button_title" = "Fertig";
+"inform_fertig_button_title" = "Fatto";
 
 /*CSV wird heruntergeladen*/
-"downloading_csv" = "CSV wird heruntergeladen";
+"downloading_csv" = "Scarica il file CSV";
 "handshakes_heading_homescreen" = " ";
-"handshakes_title_homescreen" = "Begegnungen";
+"handshakes_title_homescreen" = "Incontri";
 "inform_heading_homescreen" = " ";
-"inform_title_homescreen" = "Verdacht auf eine Corona Erkrankung";
-"inform_text_homescreen" = "Informiere Personen, denen du begegnet bist, wenn du Symptome verspürst oder positiv getestet wurdest.";
-"inform_button_title" = "Erkrankung melden";
-"inform_button_title_again" = "Erneut informieren";
-"inform_last_meldung_text" = "Letzte erfolgreiche Meldung am {date}";
+"inform_title_homescreen" = "Sospetto COVID-19";
+"inform_text_homescreen" = "Informa le persone che hai incontrato che hai i sintomi o che il test da COVID-19 è risultato positivo.";
+"inform_button_title" = "Segnala adesso";
+"inform_button_title_again" = "Aggiorna la segnalazione";
+"inform_last_meldung_text" = "Ultima segnalazione effettuata {date}";
 
 /*Erstes Tab*/
-"tab_theapp_title" = "Die App";
+"tab_theapp_title" = "L'App";
 
 /*Tab Titel*/
-"tab_aktuell_title" = "Aktuell";
+"tab_aktuell_title" = "Adesso";
 
 /*Tab Titel*/
-"tab_verhalten_title" = "Verhalten";
+"tab_verhalten_title" = "Comportamento";
 
 /*Tab Titel*/
-"tab_prinzip_title" = "Prinzip";
+"tab_prinzip_title" = "Principio";
 
 /*Abbrechen*/
-"cancel" = "Abbrechen";
+"cancel" = "Annulla";
 
 /*Schliessen*/
-"close" = "Schliessen";
+"close" = "Chiudi";
 
 /*Begegnungen*/
-"begegnungen_counter_title" = "Synchronisationen";
-"inform_meldung_time" = "Meldung vom {date}";
-"homescreen_inform_module_gemeldet_label" = "Du hast alle Nutzer informiert, denen du in letzter Zeit begegnet bist.";
+"begegnungen_counter_title" = "Sincronizazzione";
+"inform_meldung_time" = "Report a partire da {date}";
+"homescreen_inform_module_gemeldet_label" = "Hai inviato una segnalazione a tutte le persone con cui sei entrato in contatto.";
 
 /*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
-"push_exposed_title" = "Neue Informationen verfügbar";
+"push_exposed_title" = "Nuove segnalazioni disponibili";
 
 /*Titel für Push-Nachrichten, wenn erkannt wird, dass ein Nutzer exposed war*/
-"push_exposed_text" = "Bitte öffne die App für weitere Informationen.";
-"onboarding_top_label_how" = "Wie funktioniert das:";
-"onboarding_title_1" = "Einen Schritt voraus";
-"onboarding_desc_1" = "Mit der Next Step App können wir alle dazu beitragen, die Verbreitung von COVID-19 einzudämmen. Die App hilft infizierten, sich bereits vor den ersten Symptomen zu isolieren.";
-"onboarding_title_2" = "Automatisch\nund anonym";
-"onboarding_desc_2" = "Die App erkennt Begegnungen und speichert diese anonym und verschlüsselt auf deinem Gerät.";
-"onboarding_title_3" = "Informieren";
-"onboarding_desc_3" = "Bei einem positiven Test kannst du deine Begegnungen anonym informieren, damit diese die richtigen Massnahmen treffen können.";
-"onboarding_title_4" = "Berechtigungen";
-"onboarding_desc_4" = "Bitte stimme noch diesen Berechtigungen zu, damit die App richtig funktioniert.";
+"push_exposed_text" = "Per ulteriori informazioni aari l'applicazione";
+"onboarding_top_label_how" = "Come funziona :";
+"onboarding_title_1" = "Un passo avanti";
+"onboarding_desc_1" = "Con l'app Next Step tutti possiamo collaborare a limitare la diffusione del COVID-19. L'app Next Step permette alle persone che sono state infettate di isolarsi prima di diventare sintomatiche.";
+"onboarding_title_2" = "Automatica\ne anonima";
+"onboarding_desc_2" = "Questa app registra i contatti con le altre persone e le registra in forma anonima e cifrata sul tuo telefono.";
+"onboarding_title_3" = "Informazioni";
+"onboarding_desc_3" = "In caso di test positivo puoi informare in forma anonima tutte le persone che hai incontrato, così che possano prendere le necessarie precauzioni.";
+"onboarding_title_4" = "Permessi";
+"onboarding_desc_4" = "Questa app necessita delle seguenti permessi per funzionare correttamente.";
 "onboarding_title_5" = "Next Step";
-"onboarding_desc_5" = "Gemeinsam können wir den nächsten Schritt aus der Isolation schaffen.";
-"onboarding_android_location_permission_info" = "Das Tracing funktioniert über Bluetooth Low Energy Technologie, deshalb braucht die App Zugriff auf Bluetooth. Auf Android ist es aber nur möglich, auf Bluetooth zuzugreifen, wenn die App Standort Berechtigung hat.\n\nDie App greift aber nie auf deinen Standort zu!";
-"onboarding_android_battery_saving_info" = "Damit wir das Tracing durchgehend im Hintergrund machen können, muss die Akku Optimierung für unsere App ausgeschaltet werden.";
-"button_permission_location_android" = "Ortung erlauben";
-"button_permission_location_granted_android" = "Ortung erlaubt";
+"onboarding_desc_5" = "Insieme possiamo andare avanti e terminare l\'isolamento.";
+"onboarding_android_location_permission_info" = "Il tracciamento è effettuato tramite Bluetooth Low Energy. L'applicazione richiede che il Bluetooth venga tenuto attivo sul tuo telefono. Su Android l'app necessita anche del permesso \"Posizione\" per poter mantenere attivo il Bluetooth. Nessuna posizione verrà comunque registrata.";
+"onboarding_android_battery_saving_info" = "Disattiva l'ottimizzazione della durata batteria per permettere il tracciamento in background.";
+"button_permission_location_android" = "Permetti il tracciamento";
+"button_permission_location_granted_android" = "Tracciamento permesso";
 "button_ok" = "ok";
-"activate_bluetooth_button" = "Bluetooth aktivieren";
-"activate_push_button" = "Push aktivieren";
-"bluetooth_activated_label" = "Bluetooth aktiviert";
-"push_activated_label" = "Push aktiviert";
-"onboarding_continue_button" = "Weiter";
-"onboarding_continue_without_button" = "Weiter ohne Berechtigungen";
-"onboarding_continue_without_popup_text" = "Willst du wirklich fortfahren? Die App funktioniert nicht komplett, wenn sie die nötigen Berechtigungen nicht hat.";
-"onboarding_continue_without_popup_abort" = "Abbrechen";
-"onboarding_continue_without_popup_continue" = "Fortfahren";
-"onboarding_finish_button" = "Fertig";
+"activate_bluetooth_button" = "Attivare Bluetooth";
+"activate_push_button" = "Attivare Notifiche push";
+"bluetooth_activated_label" = "Bluetooth attivato";
+"push_activated_label" = "Notifiche push attivate";
+"onboarding_continue_button" = "Avanti";
+"onboarding_continue_without_button" = "Continua senza permessi";
+"onboarding_continue_without_popup_text" = "Vuoi veramente continuare ? L'app non potrà funzionare senza le necessarie permessi.";
+"onboarding_continue_without_popup_abort" = "Annulla";
+"onboarding_continue_without_popup_continue" = "Continua";
+"onboarding_finish_button" = "Fatto";
 "button_battery_optimization" = "Akku-Optimierung deaktivieren";
-"button_battery_optimization_deactivated" = "Akku-Optimierung deaktiviert";
+"button_battery_optimization_deactivated" = "Ottimizzazione della batteria disattivata";
 
 /*Gleicher Inhalt wie homescreen_handshakes_module_info_label, aber ohne Symptome*/
-"homescreen_handshakes_module_info_label_nosymptoms" = "Hier wird angezeigt, wenn Personen, denen du begegnet bist, über COVID-19 informieren.";
+"homescreen_handshakes_module_info_label_nosymptoms" = "Qui verrai informato se hai avuto contatti con persone che sono state testate positive al COVID-19.";
 
 /*Siehe inform_text_homescreen*/
-"inform_text_homescreen_nosymptoms" = "Informiere Personen, denen du begegnet bist anonym, wenn du positiv auf COVID-19 getestet wurdest.";
+"inform_text_homescreen_nosymptoms" = "Se il tuo test al COVID-19 è positivo, informa le persone con cui sei venuto in contatto.";
 
 /*Unerwarteter Fehler*/
-"unexpected_error_title" = "Ein unerwarteter Fehler ist aufgetreten ({ERROR}).";
+"unexpected_error_title" = "Errore sconosciuto ({ERROR}).";
 
 /*Bluetooth Fehlermeldung*/
-"bluetooth_turned_off" = "Die App funktioniert nicht, weil Bluetooth ausgeschaltet ist.";
+"bluetooth_turned_off" = "L'app non sta funzionando, per cortesia attivare il Bluetooth.";
 
 /*Bluetooth Permission Fehler*/
-"bluetooth_permission_turned_off" = "Die App funktioniert nicht, weil die Bluetooth Berechtigung nicht gegeben ist.";
+"bluetooth_permission_turned_off" = "L'app non sta funzionando, il permesso a utilizzare il Bluetooth è stata revocato.";
 
 /*Permission Text für Bluetooth*/
-"NSBluetoothPeripheralUsageDescription" = "Begegnungen werden über Bluetooth energiesparend im Hintergrund erkannt.";
+"NSBluetoothPeripheralUsageDescription" = "I contatti vengono riconosciuti via Bluetooth, in background e in modo da risparmiare batteria.";
 
 /*Bluetooth Permission Text für iOS*/
-"NSBluetoothAlwaysUsageDescription" = "Begegnungen werden über Bluetooth energiesparend im Hintergrund erkannt.";
+"NSBluetoothAlwaysUsageDescription" = "I contatti vengono riconosciuti via Bluetooth, in background e in modo da risparmiare batteria.";
 
 /*Text der bei Android in der permanenten Notification immer angezeigt wird*/
-"foreground_service_notification_text" = "Begegnungen werden anonym auf deinem Gerät gespeichert.";
+"foreground_service_notification_text" = "L'app sta operando in background";
 
 /*Text, der angezeigt wird als Info für Leute die jemand positiv getesteten begegnet sind*/
-"exposed_info_support_text" = "Wenn du Fragen hast oder Empfehlungen brauchst, ruf die Hotline an.";
+"exposed_info_support_text" = "er qualunque informazione o raccomandazione, potete chiamare ";
 
 /*Button mit Support Telefonnummer*/
-"exposed_info_tel_button_title" = "+41 00 000 00 00";
+"exposed_info_tel_button_title" = "+39 00 000 00 00";
 
 /*Inform: Titel der Code abschicken Seite*/
-"inform_code_title" = "Code eingeben";
+"inform_code_title" = "Inserire il codice";
 
 /*Inform: Code eingeben Subtext*/
-"inform_code_text" = "Gib den Code ein, den du mit deinem Testergebnis erhalten hast.";
+"inform_code_text" = "Inserire il codice che hai ricevuto con il risultato del test.";
 
 /*Inform: Code eingeben kein Code Button Text*/
-"inform_code_no_code" = "Keinen Code erhalten?";
+"inform_code_no_code" = "Non hai ricevuto un codice ?";
 
 /*hint for filter tags in log-search*/
-"logs_filter_tags" = "Tag-Filter (kommagetrennt)";
+"logs_filter_tags" = "Tag-Filtro (separato da virgole)";
 
 /*Titel des Bluetooth Control*/
-"bluetooth_setting_title" = "Tracing";
+"bluetooth_setting_title" = "Tracciamento";
 
 /*Text beim Bluetooth Control*/
-"bluetooth_setting_text" = "Begegnungen erkennen";
+"bluetooth_setting_text" = "Abilitare Bluetooth";
 
 /*Bluetooth Control: Tracking aktiv*/
-"bluetooth_setting_tracking_active" = "Tracing aktiv";
+"bluetooth_setting_tracking_active" = "Tracciamento attivo";
 
 /*Bluetooth Control: Tracking Aktiv Subtext*/
-"bluetooth_setting_tracking_active_subtext" = "Begegnungen werden anonym auf deinem Gerät gespeichert.";
+"bluetooth_setting_tracking_active_subtext" = "I contatti sono memorizzati in forma anonima sul tuo telefono.";
 
 /*Bluetooth Control: Tracking deaktiviert*/
-"bluetooth_setting_tracking_inactive" = "Tracing deaktiviert";
+"bluetooth_setting_tracking_inactive" = "Tracciamento disattivato.";
 
 /*Bluetooth Control: Tracking deaktiviert Subtext*/
-"bluetooth_setting_tracking_inactive_subtext" = "Erlaube Bluetooth, damit Begegnungen anonym gespeichert werden können.";
+"bluetooth_setting_tracking_inactive_subtext" = "Awabilita il Bluetooth, così da permettere di registrare gli incontri in forma anonima.";
 
 /*Bluetooth Setting: Titel unten*/
-"bluetooth_setting_tracking_explanation_title" = "Wie funktioniert das Tracing?";
+"bluetooth_setting_tracking_explanation_title" = "Come funziona il tracciamento ?";
 
 /*Bluetooth Setting Text unten*/
-"bluetooth_setting_data_explanation_title" = "Sind meine Daten sicher?";
+"bluetooth_setting_data_explanation_title" = "I miei dati personali sono al sicuro ?";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_tracking_explanation_text1" = "Die App erkennt mittels Bluetooth, genauer gesagt Bluetooth Low Energy, Begegnungen mit anderen Nutzern. Eine Begegnung wird durch die App registriert, wenn zwei Nutzer sich für eine bestimmte Zeit in der Nähe aufhalten, und nach 21 Tagen wieder gelöscht.";
+"bluetooth_setting_tracking_explanation_text1" = "Utilizzando il BLE  (Bluetooth Low Energy)  l'app riconosce i contatti con altre persone. Questi incontri vengono registrati dall'app se due persone si trovano vicine per un certo periodo di tempo e vengono cancellati dopo 21 giorni.";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_tracking_explanation_text2" = "Eine Begegnung mit einem anderen Nutzer wird nur lokal auf deinem Smartphone gespeichert.";
+"bluetooth_setting_tracking_explanation_text2" = "I contatti sono salvati esclusivamente sul tuo telefono.";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_data_explanation_text1" = "Jede App hat eine dynamische ID, die alle 15 Minuten mittels «HMAC(SHA256)» zufällig generiert wird. So bleibt jeder Nutzer anonym.";
+"bluetooth_setting_data_explanation_text1" = "Ogni app ha il suo ID dinamico, generato casualmente, cifrato via HMAC(SHA256) e cambia ogni 15 minuti per garantire l'anonimato.";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_data_explanation_text2" = "Wichtige Eigenschaften:\n- Kein Location-Tracking\n- Keine Analytics oder Advertising Dienste\n- Offene Architektur / Protokoll und Spezifikation inkl. SDK für iOS und Android\n- Interoperabilität (Eigene App, eigenes Backend)\n- Open Source";
-"reports_title_homescreen" = "Meldungen";
+"bluetooth_setting_data_explanation_text2" = "Caratteristiche importanti :\n- Nessun tracciamento di posizione\n- Nessun tracciamento di marketing ne pubblicità\n- Architettura aperta, protocollo, specifiche e SDK pubblicati\n- Completa interoperabilità\n- Open Source";
+"reports_title_homescreen" = "Report";
 
 /*Keine Meldungen Titel*/
-"meldungen_no_meldungen_title" = "Keine Meldungen";
+"meldungen_no_meldungen_title" = "Nessun report";
 
 /*Keine Meldungen Text*/
-"meldungen_no_meldungen_text" = "Du wirst beim Verdacht auf eine mögliche Ansteckung informiert.";
+"meldungen_no_meldungen_text" = "Sarai informato in caso di possibile infezione.";
 
 /*Push deaktiviert Titel*/
-"push_deactivated_title" = "Push deaktiviert";
+"push_deactivated_title" = "Notifiche push disattivate";
 
 /*Push deaktiviert Text*/
-"push_deactivated_text" = "Erlaube Push Nachrichten, um bei einer Meldung direkt informiert zu werden.";
+"push_deactivated_text" = "Abilita le notifiche push per essere informato immediatamente quando un report viene ricevuto.";
 
 /*Hinweis Titel*/
-"hinweis_title" = "Wichtiger Hinweis";
+"hinweis_title" = "Note";
 
 /*Hinweis Text*/
-"hinweis_text" = "Eine Person, der du begegnet bist, wurde positiv auf COVID-19 getestet.";
-"button_report_illness" = "Erkrankung melden";
-"meldungen_meldung_title" = "Wichtiger Hinweis";
-"meldungen_meldung_text" = "Eine Person, der du begegnet bist, wurde positiv auf COVID-19 getestet. Bitte informiere dich hier über die Verhaltensempfehlungen.";
-"meldungen_meldung_more_button" = "Mehr erfahren";
-"tracing_active_title" = "Tracing aktiv";
-"tracing_active_text" = "Begegnungen werden anonym auf deinem Gerät gespeichert.";
-"tracing_error_title" = "Tracing nicht aktiv";
-"tracing_error_text" = "Aktiviere Tracing und Bluetooth, damit Begegnungen anonym aufgezeichnet werden können.";
+"hinweis_text" = "Una persona con cui hai avuto contatto è stata testata positiva al COVID-19";
+"button_report_illness" = "Condividi i sintomi";
+"meldungen_meldung_title" = "Note";
+"meldungen_meldung_text" = "Una persona con cui hai avuto contatto è risultata positiva al COVID-19. Leggi le informazioni e le raccomandazioni qui.";
+"meldungen_meldung_more_button" = "Più informazioni";
+"tracing_active_title" = "Tracciamento attivo";
+"tracing_active_text" = "Gli incontri sono registrati in forma anonima sul tuo device.";
+"tracing_error_title" = "Il tracciamento non è attivo.";
+"tracing_error_text" = "Attivare il Bluetooth, così da permettere di registrare gli incontri in forma anonima.";
 
 /*Meldungen: zusätzliche Info Titel*/
-"meldungen_additional_info_title" = "Was bedeutet das?";
+"meldungen_additional_info_title" = "Cosa vuol dire ?";
 
 /*Meldungen: Info Text 1*/
-"meldungen_additional_info_text1" = "Um die Verbreitung eines Virus zu stoppen, muss man die Ansteckungsketten unterbrechen. Das gelingt, wenn man ansteckende Personen isoliert. Nur: Beim neuen Coronavirus gibt es ein Problem. Es kann sein, dass du bereits ansteckend bist, bevor du dich krank fühlst. So kann sich das Virus ausbreiten, obwohl sich Personen mit Symptomen selbst isolieren. Denn wir sind einen Schritt zu spät.";
+"meldungen_additional_info_text1" = "Per bloccare il virus bisogna interrompere la catena di trasmissione. Questo si può fare isolando le persone contaggiate. Con il COVID-19 le persone infette possono trasmettere il virus prima di mostrare i sintomi, il che significa che possono infettare senza saperlo. Questo permette al virus di propagarsi anche se le persone con i sintomi si isolano. Dobbiamo stare un passo avanti !";
 
 /*Meldungen: zusätzlicher Info Text*/
-"meldungen_additional_info_text2" = "Deshalb sollen Kontakpersonen informiert werden. So können sie sich frühzeitig isolieren – noch bevor sie sich krank fühlen. Natürlich haben dann nicht alle Kontaktpersonen das Virus. Aber diejenigen, die es haben, geben es nicht weiter. So sind wir dem Virus einen Schritt voraus.";
+"meldungen_additional_info_text2" = "Quindi le persone che sono venute in contatto con un infetto devono essere informate, così da potersi isolare prima di mostrare i sintomi. Non tutti quelli venuti in contatto con un infetto hanno il virus, ma quelli che ce l'hanno lo passeranno. Il trucco è stare un passo avanti.";
 
 /*Hinweis beim Eingabefeld für den Authentifizierungs-Code*/
 "auth_code_input_hint" = "000-000";
 
 /*Meldungen: Info Titel*/
-"meldungen_additional_info_title2" = "Wie soll ich mich verhalten?";
+"meldungen_additional_info_title2" = "Cosa devo fare ?";
 
 /*Meldungen: Text*/
-"meldungen_additional_info_text3" = "Experten vom BAG beraten Sie telefonisch.\n\nCorona-Infoline\n+41 58 463 00 00";
+"meldungen_additional_info_text3" = "Gli esperti di XXX ti daranno informazioni per telefono\\\nCoronavirus infoline +39 00 000 0000";
 
 /*Meldungen: Jetzt anrufen*/
-"meldungen_call_button_title" = "Jetzt anrufen";
+"meldungen_call_button_title" = "Chiama ora";
 
 /*Bezeichnung für Beratungs-Hotline*/
 "meldungen_hotline_label" = "Corona-Infoline";
 
 /*Label für Anrufen-Button*/
-"button_call_now" = "Jetzt anrufen";
+"button_call_now" = "Chiama ora";
 
 /*Telefon-Nummer für die Hotline*/
-"tel_hotline" = "+41 58 463 00 00";
+"tel_hotline" = "+39 00 000 0000";
 
 /*Meldungen: Text ohne Hotline Info*/
-"meldungen_additional_info_text3_reduced" = "Experten vom BAG beraten dich telefonisch.";
-"meldungen_infected_title" = "Infektion gemeldet";
-"meldungen_infected_text" = "Vielen Dank! Nutzer denen du begegnet bist, werden anonym informiert und können sich isolieren.";
-"foreground_service_notification_errors" = "App kann zur Zeit nicht richtig funktionieren:";
-"foreground_service_notification_error_network_sync" = "beim Laden der Daten ist ein Fehler aufgetreten";
-"foreground_service_notification_error_location_permission" = "Standort Berechtigung fehlt (benötigt um auf Bluetooth zuzugreifen)";
-"foreground_service_notification_error_bluetooth_disabled" = "Bluetooth ist deaktiviert";
-"foreground_service_notification_error_battery_optimization" = "Akku Optimierung ist aktiviert (verhindert zuverlässiges Scanning im Hintergrund)";
+"meldungen_additional_info_text3_reduced" = "Gli esperti di XXX ti daranno informazioni e consigli per telefono";
+"meldungen_infected_title" = "Infezione segnalata";
+"meldungen_infected_text" = "Grazie ! Le persone informate in via anonima si potranno isolare interrompendo la catena di contagio.";
+"foreground_service_notification_errors" = "L'app non funziona correttamente al momento :";
+"foreground_service_notification_error_network_sync" = "Errore durante la sincronizzazione dei dati";
+"foreground_service_notification_error_location_permission" = "I permessi di \"posizione\" sono necessari per attivare la funzionalità Bluetooth";
+"foreground_service_notification_error_bluetooth_disabled" = "Bluetooth è stato disattivato";
+"foreground_service_notification_error_battery_optimization" = "L'ottimizzazione della battaeria è attivata e impedisce la scansione in background";
 
 /*Beruhigender Text für Detail-Seite, falls Meldung eingegangen ist*/
-"meldungen_hinweis_info_text1" = "Dies bedeutet nicht, dass du angesteckt wurdest. Aber es ist wichtig, dass du dich über mögliche Massnahmen informierst.";
+"meldungen_hinweis_info_text1" = "Questo non significa che sei infetto. Ma è importate che ti informi sulle misure da prendere.";
 
 /*Info-Text "Was bedeuteted das" für Person, die selbst bemeldet hat*/
-"meldungen_hinweis_info_text1_infected" = "Dies bedeutet nicht, dass jemand angesteckt wurde. Aber es ist wichtig, dass jede Person, der du begegnet bist, sich über angemessene Massnahmen informieren kann.";
+"meldungen_hinweis_info_text1_infected" = "Questo non significa che altre persone sono state infettate. Ma è importate che tutti quelli con cui hai avuto contatti siano informati, così da poter prendere le misure appropriate.";
 
 /*Titel der Nachricht, die auf Beta-Status Hinweist*/
-"preview_warning_title" = "Vorschau Version";
+"preview_warning_title" = "Versione perliminare";
 
 /*Text der Nachricht, die auf Beta-Status Hinweist*/
-"preview_warning_text" = "Diese App dient als Vorschau, um die DP-3T Implementation zu zeigen. Es ist kein produktiv verwendbarer COVID-19 Tracer.";
+"preview_warning_text" = "Questa app è stata creata per dimostrare un implementazione di DP-3T.";
 
 /*Label auf dem Button, der zum Debug-Screen führt*/
-"debug_settings_title" = "Debug Einstellungen";
+"debug_settings_title" = "Impostazioni di debug";
 
 /*Titel für die Debug-Einstellungen zur Status-Überschreibung*/
-"debug_state_setting_title" = "App-Zustand überschreiben";
+"debug_state_setting_title" = "Sovrascrivi lo stato dell'app";
 
 /*Erklärungstext für die Debug-Einstellungen zur Status-Überschreibung*/
-"debug_state_setting_text" = "Diese Einstellung überschreibt den visuellen Zustand der App. Die Tracing-Funktionalität wird davon nicht beeinflusst.";
+"debug_state_setting_text" = "Questa impostazione sovrascrive lo stato dell UI dell'app. La funzionalità di tracciamento non è interessata.";
 
 /*Einstellungs-Option zum überschreiben des App-Zustands: Keine*/
-"debug_state_setting_option_none" = "Keine Überschreibung";
+"debug_state_setting_option_none" = "Nessuna sovrascrittura";
 
 /*Einstellungs-Option zum überschreiben des App-Zustands: Gesund*/
-"debug_state_setting_option_ok" = "Gesund";
+"debug_state_setting_option_ok" = "Sano";
 
 /*Einstellungs-Option zum überschreiben des App-Zustands: Einem positiven Kontakt ausgesetzt*/
-"debug_state_setting_option_exposed" = "Positiv getesteter Kontakt";
+"debug_state_setting_option_exposed" = "Positivo al test";
 
 /*Einstellungs-Option zum überschreiben des App-Zustands: Selbst positiv getestet*/
-"debug_state_setting_option_infected" = "Selbst positiv gemeldet";
+"debug_state_setting_option_infected" = "Segnalato positivo";
 
 /*Titel für die Debug-Info zum Tracing-Status*/
-"debug_sdk_state_title" = "SDK Status";
+"debug_sdk_state_title" = "Impostazioni SDK ";
 
 /*Erklärungstext für die Debug-Info zum Tracing-Status*/
-"debug_sdk_state_text" = "Der aktuelle Zustand des DP-3T SDKs.";
+"debug_sdk_state_text" = "Stato corrente del SDK DP-3T.";
 
 /*Bezeichnung für den aktiven SDK Status*/
-"debug_sdk_state_active" = "wird ausgeführt";
+"debug_sdk_state_active" = "In esecuzione";
 
 /*Bezeichnung für den inaktiven SDK Status*/
-"debug_sdk_state_inactive" = "wird nicht ausgeführt";
+"debug_sdk_state_inactive" = "Non attivo";
 
 /*Bezeichnung für den letzen sync-Zeitpunkt*/
-"debug_sdk_state_last_synced" = "Letzte Synchronisation: ";
+"debug_sdk_state_last_synced" = "Ultima sincronizzazione :";
 
 /*Bezeichnung für den Fall, bei dem der User selber als positiv getestet gemeldet wurde*/
-"debug_sdk_state_self_exposed" = "Selbst gemeldet: ";
+"debug_sdk_state_self_exposed" = "Auto segnalato :";
 
 /*Bezeichnung für den Fall, bei dem ein Kontakt als positiv getestet gemeldet wurde*/
-"debug_sdk_state_contact_exposed" = "Kontakt gemeldet: ";
+"debug_sdk_state_contact_exposed" = "Contatto segnalato :";
 
 /*Bezeichnung für die Anzahl bluetooth-handshakes, die ausgeführt wurden*/
-"debug_sdk_state_number_handshakes" = "Anzahl handshakes: ";
+"debug_sdk_state_number_handshakes" = "Numero di  handshakes: ";
 
 /*Debug-Status-Bezeichnung für boleschen Wert 'true'*/
-"debug_sdk_state_boolean_true" = "ja";
+"debug_sdk_state_boolean_true" = "Si";
 
 /*Debug-Status-Bezeichnung für boleschen Wert 'false'*/
-"debug_sdk_state_boolean_false" = "nein";
+"debug_sdk_state_boolean_false" = "No";
 
 /*Button-Text für das Zurücksetzen des lokalen SDK Zustandes*/
-"debug_sdk_button_reset" = "SDK zurücksetzen";
+"debug_sdk_button_reset" = "Ripristina SDK";
 
 /*Infotext, wenn lokal das SDK zurückgesetzt wurde*/
-"debug_sdk_reset_text" = "Der lokale Stand des DP-3T SDK wurde zurückgesetzt.";
+"debug_sdk_reset_text" = "Lo stato locale dell'SDK DP-3T è stato ripristinato.";

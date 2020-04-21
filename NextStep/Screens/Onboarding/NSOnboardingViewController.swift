@@ -14,8 +14,8 @@ class NSOnboardingViewController: NSViewController {
     private let rightSwipeRecognizer = UISwipeGestureRecognizer()
 
     private let step1VC = NSOnboardingStepViewController(model: NSOnboardingStepModel(heading: " ", foregroundImage: UIImage(named: "onboarding-1")!, title: "onboarding_title_1".ub_localized, text: "onboarding_desc_1".ub_localized))
-    private let step2VC = NSOnboardingStepViewController(model: NSOnboardingStepModel(heading: "Was macht die App:", foregroundImage: UIImage(named: "onboarding-2")!, title: "onboarding_title_2".ub_localized, text: "onboarding_desc_2".ub_localized))
-    private let step3VC = NSOnboardingStepViewController(model: NSOnboardingStepModel(heading: "Was macht die App:", foregroundImage: UIImage(named: "onboarding-3")!, title: "onboarding_title_3".ub_localized, text: "onboarding_desc_3".ub_localized))
+    private let step2VC = NSOnboardingStepViewController(model: NSOnboardingStepModel(heading: "onboarding_title_2".ub_localized, foregroundImage: UIImage(named: "onboarding-2")!, title: "onboarding_title_2".ub_localized, text: "onboarding_desc_2".ub_localized))
+    private let step3VC = NSOnboardingStepViewController(model: NSOnboardingStepModel(heading: "onboarding_title_2".ub_localized, foregroundImage: UIImage(named: "onboarding-3")!, title: "onboarding_title_3".ub_localized, text: "onboarding_desc_3".ub_localized))
     private let step4VC = NSOnboardingPermissionsViewController()
     private let step5VC = NSOnboardingStepViewController(model: NSOnboardingStepModel(heading: " ", foregroundImage: UIImage(named: "onboarding-3")!, title: "onboarding_title_5".ub_localized, text: "onboarding_desc_5".ub_localized))
 
