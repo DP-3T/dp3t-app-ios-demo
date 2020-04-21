@@ -6,7 +6,7 @@
 
 import UIKit
 
-class NSMeldungenDetailViewController: NSViewController {
+class NSMessagesDetailViewController: NSViewController {
     private let stackScrollView = NSStackScrollView()
 
     private let imageView = UIImageView(image: UIImage(named: "24-ansteckung"))
@@ -26,8 +26,8 @@ class NSMeldungenDetailViewController: NSViewController {
 
         NSUIStateManager.shared.addObserver(self) { [weak self] state in
             guard let self = self else { return }
-            let meldung = state.meldungenDetail.meldung
-            self.setup(meldung)
+            let message = state.messagesDetail.message
+            self.setup(message)
         }
     }
 
@@ -38,7 +38,7 @@ class NSMeldungenDetailViewController: NSViewController {
 
     // MARK: - Setup
 
-    private func setup(_ meldung: NSUIStateModel.MeldungenDetail.Meldung) {
+    private func setup(_ message: NSUIStateModel.MessagesDetail.Message) {
         for v in view.subviews {
             v.removeFromSuperview()
         }
@@ -61,19 +61,19 @@ class NSMeldungenDetailViewController: NSViewController {
 
         let title: String
         let subText: String
-        switch meldung {
+        switch message {
         case .exposed:
             title = "hinweis_title".ub_localized
             subText = "hinweis_text".ub_localized
         case .infected:
             title = "meldungen_infected_title".ub_localized
             subText = "meldungen_infected_text".ub_localized
-        case .noMeldung:
+        case .noMessage:
             title = "meldungen_no_meldungen_title".ub_localized
             subText = "meldungen_no_meldungen_text".ub_localized
         }
 
-        let highlight = meldung != .noMeldung
+        let highlight = message != .noMessage
 
         let titleColor = highlight ? UIColor.white : UIColor.ns_secondary
         let textColor = highlight ? UIColor.white : UIColor.ns_text
@@ -94,7 +94,7 @@ class NSMeldungenDetailViewController: NSViewController {
         stackScrollView.addArrangedView(container)
 
         if highlight {
-            let v = meldungenInfoView(meldung: meldung)
+            let v = messageInfoView(message: message)
 
             let c = UIView()
             c.addSubview(v)
@@ -144,7 +144,7 @@ class NSMeldungenDetailViewController: NSViewController {
         return v
     }
 
-    private func meldungenInfoView(meldung: NSUIStateModel.MeldungenDetail.Meldung) -> UIView {
+    private func messageInfoView(message: NSUIStateModel.MessagesDetail.Message) -> UIView {
         let v = UIView()
         v.backgroundColor = UIColor(ub_hexString: "#e9e9e9")
         v.layer.borderColor = UIColor(ub_hexString: "#dfdfdf")?.cgColor
@@ -171,7 +171,7 @@ class NSMeldungenDetailViewController: NSViewController {
 
         stackView.addArrangedView(titleLabel)
 
-        let ptv = NSPointTextView(text: meldung == .exposed ? "meldungen_hinweis_info_text1".ub_localized : "meldungen_hinweis_info_text1_infected".ub_localized)
+        let ptv = NSPointTextView(text: message == .exposed ? "meldungen_hinweis_info_text1".ub_localized : "meldungen_hinweis_info_text1_infected".ub_localized)
         stackView.addArrangedView(ptv)
 
         let titleLabel2 = NSLabel(.textSemiBold)

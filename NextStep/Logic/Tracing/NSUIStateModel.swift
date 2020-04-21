@@ -6,8 +6,8 @@ import Foundation
 struct NSUIStateModel: Equatable {
     var homescreen: Homescreen = Homescreen()
     var debug: Debug = Debug()
-    var meldungenDetail: MeldungenDetail = MeldungenDetail()
-    var begegnungenDetail: BegegnungenDetail = BegegnungenDetail()
+    var messagesDetail: MessagesDetail = MessagesDetail()
+    var encountersDetail: EncountersDetail = EncountersDetail()
 
     struct Homescreen: Equatable {
         enum Header: Equatable {
@@ -16,7 +16,7 @@ struct NSUIStateModel: Equatable {
             case warning
         }
 
-        struct Begegnungen: Equatable {
+        struct Encounters: Equatable {
             enum Tracing: Equatable {
                 case active
                 case inactive
@@ -25,20 +25,20 @@ struct NSUIStateModel: Equatable {
             var tracing: Tracing = .active
         }
 
-        struct Meldungen: Equatable {
-            enum Meldung: Equatable {
-                case noMeldung
+        struct Messages: Equatable {
+            enum Message: Equatable {
+                case noMessage
                 case exposed
                 case infected
             }
 
-            var meldung: Meldung = .noMeldung
+            var message: Message = .noMessage
             var pushProblem: Bool = false
         }
 
         var header: Header = .normal
-        var begegnungen: Begegnungen = Begegnungen()
-        var meldungen: Meldungen = Meldungen()
+        var encounters: Encounters = Encounters()
+        var messages: Messages = Messages()
 
         var meldungButtonDisabled: Bool = false
     }
@@ -50,17 +50,17 @@ struct NSUIStateModel: Equatable {
         var overwrittenInfectionState: InfectionStatus?
     }
 
-    struct MeldungenDetail: Equatable {
-        enum Meldung: Equatable {
-            case noMeldung
+    struct MessagesDetail: Equatable {
+        enum Message: Equatable {
+            case noMessage
             case exposed
             case infected
         }
 
-        var meldung: Meldung = .noMeldung
+        var message: Message = .noMessage
     }
 
-    struct BegegnungenDetail: Equatable {
+    struct EncountersDetail: Equatable {
         enum Tracing: Equatable {
             case active
             case deactivated

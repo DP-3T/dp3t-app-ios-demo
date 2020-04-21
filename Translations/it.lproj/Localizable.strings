@@ -246,7 +246,7 @@
 "bluetooth_setting_tracking_explanation_text2" = "L'incontro con un altro utente viene memorizzato solo localmente sul vostro smartphone";
 
 /*Bluetooth Setting: Text unten*/
-"bluetooth_setting_data_explanation_text1" = "Ogni app ha un ID dinamico, che viene generato in modo casuale ogni 15 minuti con "HMAC(SHA256)". In questo modo ogni utente rimane anonimo.";
+"bluetooth_setting_data_explanation_text1" = "Ogni app ha un ID dinamico, che viene generato in modo casuale ogni 15 minuti con \"HMAC(SHA256)\". In questo modo ogni utente rimane anonimo.";
 
 /*Bluetooth Setting: Text unten*/
 "bluetooth_setting_data_explanation_text2" = "Caratteristiche importanti:\n- Nessun rilevamento della posizione \n- Nessun servizio di analisi o pubblicità. \n- Architettura aperta, protocollo e specifiche incluse \n- Disponibile per iOS e Android. \n- Open Source";

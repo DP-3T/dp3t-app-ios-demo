@@ -111,18 +111,18 @@ class NSUIStateManager: NSObject {
 
         if tracingNotWorking {
             newState.homescreen.header = .error
-            newState.homescreen.begegnungen.tracing = .inactive
+            newState.homescreen.encounters.tracing = .inactive
         }
 
         if !tracingIsActivated {
-            newState.begegnungenDetail.tracingEnabled = false
-            newState.begegnungenDetail.tracing = .deactivated
+            newState.encountersDetail.tracingEnabled = false
+            newState.encountersDetail.tracing = .deactivated
         } else if tracingNotWorking {
-            newState.begegnungenDetail.tracing = .error
+            newState.encountersDetail.tracing = .error
         }
 
         if !pushOk {
-            newState.homescreen.meldungen.pushProblem = true
+            newState.homescreen.messages.pushProblem = true
         }
 
         if let tracingState = tracingState {
@@ -136,11 +136,11 @@ class NSUIStateManager: NSObject {
                 break
             case .infected:
                 newState.homescreen.meldungButtonDisabled = true
-                newState.homescreen.meldungen.meldung = .infected
-                newState.meldungenDetail.meldung = .infected
+                newState.homescreen.messages.message = .infected
+                newState.messagesDetail.message = .infected
             case .exposed:
-                newState.homescreen.meldungen.meldung = .exposed
-                newState.meldungenDetail.meldung = .exposed
+                newState.homescreen.messages.message = .exposed
+                newState.messagesDetail.message = .exposed
             }
 
             newState.debug.handshakeCount = tracingState.numberOfHandshakes

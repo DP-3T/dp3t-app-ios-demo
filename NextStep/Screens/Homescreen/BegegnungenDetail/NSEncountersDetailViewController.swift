@@ -6,7 +6,7 @@
 
 import UIKit
 
-class NSBegegnungenDetailViewController: NSViewController {
+class NSEncountersDetailViewController: NSViewController {
     private let stackScrollView = NSStackScrollView()
 
     private let imageView = UIImageView(image: UIImage(named: "onboarding-4"))

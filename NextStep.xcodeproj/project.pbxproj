@@ -72,11 +72,11 @@
 		6E7C0D47242E58600017C4F9 /* NSAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C0D46242E58600017C4F9 /* NSAboutViewController.swift */; };
 		6EA49E2924443E69009EFCAB /* NSSimpleTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA49E2824443E69009EFCAB /* NSSimpleTextButton.swift */; };
 		6EA49E2B2444410D009EFCAB /* NSNoCodeInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA49E2A2444410D009EFCAB /* NSNoCodeInformationViewController.swift */; };
-		6EFB097524459B870097BD3D /* NSBegegnungenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB097424459B870097BD3D /* NSBegegnungenDetailViewController.swift */; };
+		6EFB097524459B870097BD3D /* NSEncountersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB097424459B870097BD3D /* NSEncountersDetailViewController.swift */; };
 		6EFB09772445B1940097BD3D /* NSBluetoothSettingsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB09762445B1940097BD3D /* NSBluetoothSettingsControl.swift */; };
 		6EFB09792445B2CA0097BD3D /* NSBluetoothSettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB09782445B2CA0097BD3D /* NSBluetoothSettingsDetailView.swift */; };
 		6EFB097B2445C2210097BD3D /* NSPointTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB097A2445C2210097BD3D /* NSPointTextView.swift */; };
-		6EFB097E244603560097BD3D /* NSMeldungenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB097D244603560097BD3D /* NSMeldungenDetailViewController.swift */; };
+		6EFB097E244603560097BD3D /* NSMessagesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB097D244603560097BD3D /* NSMessagesDetailViewController.swift */; };
 		8E81CC99241FCC7D006F2437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E81CC98241FCC7D006F2437 /* AppDelegate.swift */; };
 		8E81CC9D241FCC7D006F2437 /* NSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E81CC9C241FCC7D006F2437 /* NSViewController.swift */; };
 		8E81CCA2241FCC7F006F2437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E81CCA1241FCC7F006F2437 /* Assets.xcassets */; };
@@ -84,7 +84,7 @@
 		8E81CCCF241FD813006F2437 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8E81CCCE241FD813006F2437 /* SnapKit */; };
 		AACFA6A3243088A4005595E6 /* NSAnimatedGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACFA6A2243088A4005595E6 /* NSAnimatedGraphView.swift */; };
 		AAF73663242F2DC90051E34A /* NSModuleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF73662242F2DC90051E34A /* NSModuleHeaderView.swift */; };
-		AAF73666242F2EA00051E34A /* NSBegegnungenModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF73665242F2EA00051E34A /* NSBegegnungenModuleView.swift */; };
+		AAF73666242F2EA00051E34A /* NSEncountersModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF73665242F2EA00051E34A /* NSEncountersModuleView.swift */; };
 		AAF73668242F3D030051E34A /* UIStackView+NS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF73667242F3D030051E34A /* UIStackView+NS.swift */; };
 		AAF7366B2430838A0051E34A /* NSAnimatedGraphLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7366A2430838A0051E34A /* NSAnimatedGraphLayer.swift */; };
 		DC175E402430C4C700BD2AD6 /* NSOnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC175E3F2430C4C700BD2AD6 /* NSOnboardingContentViewController.swift */; };
@@ -196,11 +196,11 @@
 		6E7C0D46242E58600017C4F9 /* NSAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAboutViewController.swift; sourceTree = "<group>"; };
 		6EA49E2824443E69009EFCAB /* NSSimpleTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSimpleTextButton.swift; sourceTree = "<group>"; };
 		6EA49E2A2444410D009EFCAB /* NSNoCodeInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNoCodeInformationViewController.swift; sourceTree = "<group>"; };
-		6EFB097424459B870097BD3D /* NSBegegnungenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBegegnungenDetailViewController.swift; sourceTree = "<group>"; };
+		6EFB097424459B870097BD3D /* NSEncountersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSEncountersDetailViewController.swift; sourceTree = "<group>"; };
 		6EFB09762445B1940097BD3D /* NSBluetoothSettingsControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBluetoothSettingsControl.swift; sourceTree = "<group>"; };
 		6EFB09782445B2CA0097BD3D /* NSBluetoothSettingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBluetoothSettingsDetailView.swift; sourceTree = "<group>"; };
 		6EFB097A2445C2210097BD3D /* NSPointTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPointTextView.swift; sourceTree = "<group>"; };
-		6EFB097D244603560097BD3D /* NSMeldungenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMeldungenDetailViewController.swift; sourceTree = "<group>"; };
+		6EFB097D244603560097BD3D /* NSMessagesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMessagesDetailViewController.swift; sourceTree = "<group>"; };
 		8E81CC95241FCC7D006F2437 /* NextStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E81CC98241FCC7D006F2437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E81CC9C241FCC7D006F2437 /* NSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewController.swift; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 		8E81CCB1241FCC7F006F2437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AACFA6A2243088A4005595E6 /* NSAnimatedGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAnimatedGraphView.swift; sourceTree = "<group>"; };
 		AAF73662242F2DC90051E34A /* NSModuleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSModuleHeaderView.swift; sourceTree = "<group>"; };
-		AAF73665242F2EA00051E34A /* NSBegegnungenModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBegegnungenModuleView.swift; sourceTree = "<group>"; };
+		AAF73665242F2EA00051E34A /* NSEncountersModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSEncountersModuleView.swift; sourceTree = "<group>"; };
 		AAF73667242F3D030051E34A /* UIStackView+NS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+NS.swift"; sourceTree = "<group>"; };
 		AAF7366A2430838A0051E34A /* NSAnimatedGraphLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAnimatedGraphLayer.swift; sourceTree = "<group>"; };
 		DC175E3F2430C4C700BD2AD6 /* NSOnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSOnboardingContentViewController.swift; sourceTree = "<group>"; };
@@ -579,7 +579,7 @@
 		6EFB097324459B580097BD3D /* BegegnungenDetail */ = {
 			isa = PBXGroup;
 			children = (
-				6EFB097424459B870097BD3D /* NSBegegnungenDetailViewController.swift */,
+				6EFB097424459B870097BD3D /* NSEncountersDetailViewController.swift */,
 				6EFB09762445B1940097BD3D /* NSBluetoothSettingsControl.swift */,
 				6EFB09782445B2CA0097BD3D /* NSBluetoothSettingsDetailView.swift */,
 				6EFB097A2445C2210097BD3D /* NSPointTextView.swift */,
@@ -590,7 +590,7 @@
 		6EFB097C2446032D0097BD3D /* Meldungen */ = {
 			isa = PBXGroup;
 			children = (
-				6EFB097D244603560097BD3D /* NSMeldungenDetailViewController.swift */,
+				6EFB097D244603560097BD3D /* NSMessagesDetailViewController.swift */,
 			);
 			path = Meldungen;
 			sourceTree = "<group>";
@@ -640,7 +640,7 @@
 		AAF73664242F2E300051E34A /* Begegnungen */ = {
 			isa = PBXGroup;
 			children = (
-				AAF73665242F2EA00051E34A /* NSBegegnungenModuleView.swift */,
+				AAF73665242F2EA00051E34A /* NSEncountersModuleView.swift */,
 			);
 			path = Begegnungen;
 			sourceTree = "<group>";
@@ -968,7 +968,7 @@
 				24780B1A242DFDAE003BB26C /* NSModuleBaseView.swift in Sources */,
 				24780B5D2431B5A9003BB26C /* NSContentEnvironment.swift in Sources */,
 				DC175E422430C4F900BD2AD6 /* NSOnboardingPermissionsViewController.swift in Sources */,
-				6EFB097524459B870097BD3D /* NSBegegnungenDetailViewController.swift in Sources */,
+				6EFB097524459B870097BD3D /* NSEncountersDetailViewController.swift in Sources */,
 				DC56B8B9242EA7760077B99C /* NSOnboardingStepModel.swift in Sources */,
 				DC286A26242CE0B9001D5344 /* NSBackendEnvironment.swift in Sources */,
 				DC702B01243F6F640066C773 /* String+NS.swift in Sources */,
@@ -992,13 +992,13 @@
 				DC702B15243F6FD90066C773 /* UBKeychainAccessibility.swift in Sources */,
 				24780B0B242DFCFB003BB26C /* NSTabBarController.swift in Sources */,
 				6EFB09792445B2CA0097BD3D /* NSBluetoothSettingsDetailView.swift in Sources */,
-				6EFB097E244603560097BD3D /* NSMeldungenDetailViewController.swift in Sources */,
+				6EFB097E244603560097BD3D /* NSMessagesDetailViewController.swift in Sources */,
 				6E6E518E242FB9A8006E532E /* NSAppTitleView.swift in Sources */,
 				AACFA6A3243088A4005595E6 /* NSAnimatedGraphView.swift in Sources */,
 				6EFB09772445B1940097BD3D /* NSBluetoothSettingsControl.swift in Sources */,
 				DC702AFB243F6D870066C773 /* UBLabelType.swift in Sources */,
 				6E6E5192243121D2006E532E /* NSErrorView.swift in Sources */,
-				AAF73666242F2EA00051E34A /* NSBegegnungenModuleView.swift in Sources */,
+				AAF73666242F2EA00051E34A /* NSEncountersModuleView.swift in Sources */,
 				DC702B0D243F6FAE0066C773 /* UBCodable.swift in Sources */,
 				8E81CC99241FCC7D006F2437 /* AppDelegate.swift in Sources */,
 				6E6E5190242FCE13006E532E /* NSFancyNumberView.swift in Sources */,
