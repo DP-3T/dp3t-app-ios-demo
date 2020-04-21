@@ -14,8 +14,8 @@ class NSHomescreenViewController: NSViewController {
 
     let titleView = NSAppTitleView()
 
-    private let handshakesModuleView = NSBegegnungenModuleView()
-    private let meldungView = NSMeldungView()
+    private let handshakesModuleView = NSEncountersModuleView()
+    private let meldungView = NSMessagesView()
 
     private let informButton = NSButton(title: "inform_button_title".ub_localized, style: .primaryOutline)
     private let debugScreenButton = NSButton(title: "debug_settings_title".ub_localized, style: .outline(.ns_error))
@@ -42,14 +42,14 @@ class NSHomescreenViewController: NSViewController {
 
         meldungView.touchUpCallback = { [weak self] in
             guard let strongSelf = self else { return }
-            strongSelf.presentMeldungenDetail()
+            strongSelf.presentMessagesDetail()
         }
 
         NSUIStateManager.shared.addObserver(self, block: updateState(_:))
 
         handshakesModuleView.touchUpCallback = { [weak self] in
             guard let strongSelf = self else { return }
-            strongSelf.presentBegegnungenDetail()
+            strongSelf.presentEncountersDetail()
         }
 
         informButton.touchUpCallback = { [weak self] in
@@ -159,8 +159,8 @@ class NSHomescreenViewController: NSViewController {
 
     func updateState(_ state: NSUIStateModel) {
         titleView.uiState = state.homescreen.header
-        handshakesModuleView.uiState = state.homescreen.begegnungen.tracing
-        meldungView.uiState = state.homescreen.meldungen
+        handshakesModuleView.uiState = state.homescreen.encounters.tracing
+        meldungView.uiState = state.homescreen.messages
 
         if state.homescreen.meldungButtonDisabled {
             informButton.isEnabled = false
@@ -173,12 +173,12 @@ class NSHomescreenViewController: NSViewController {
 
     // MARK: - Details
 
-    private func presentBegegnungenDetail() {
-        navigationController?.pushViewController(NSBegegnungenDetailViewController(), animated: true)
+    private func presentEncountersDetail() {
+        navigationController?.pushViewController(NSEncountersDetailViewController(), animated: true)
     }
 
-    private func presentMeldungenDetail() {
-        navigationController?.pushViewController(NSMeldungenDetailViewController(), animated: true)
+    private func presentMessagesDetail() {
+        navigationController?.pushViewController(NSMessagesDetailViewController(), animated: true)
     }
 
     private func presentOnboardingIfNeeded() {

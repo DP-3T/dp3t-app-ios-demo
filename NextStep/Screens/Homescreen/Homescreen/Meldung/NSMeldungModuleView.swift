@@ -6,16 +6,16 @@
 
 import UIKit
 
-class NSMeldungView: NSModuleBaseView {
-    var uiState: NSUIStateModel.Homescreen.Meldungen
-        = .init(meldung: .noMeldung, pushProblem: false) {
+class NSMessagesView: NSModuleBaseView {
+    var uiState: NSUIStateModel.Homescreen.Messages
+        = .init(message: .noMessage, pushProblem: false) {
         didSet { updateLayout() }
     }
 
     // section views
-    private let noMeldungenView = NSBluetoothSettingsDetailView(title: "meldungen_no_meldungen_title".ub_localized, subText: "meldungen_no_meldungen_text".ub_localized, image: UIImage(named: "ic-check")!, titleColor: .ns_secondary, subtextColor: .ns_text, backgroundColor: UIColor(ub_hexString: "#d3f2ee")!)
+    private let noMessagesView = NSBluetoothSettingsDetailView(title: "meldungen_no_meldungen_title".ub_localized, subText: "meldungen_no_meldungen_text".ub_localized, image: UIImage(named: "ic-check")!, titleColor: .ns_secondary, subtextColor: .ns_text, backgroundColor: UIColor(ub_hexString: "#d3f2ee")!)
 
-    private let meldungenView = NSBluetoothSettingsDetailView(title: "meldungen_meldung_title".ub_localized, subText: "meldungen_meldung_text".ub_localized, image: UIImage(named: "ic-info")!, titleColor: .white, subtextColor: .white, backgroundColor: .ns_primary, additionalText: "meldungen_meldung_more_button".ub_localized)
+    private let messagesView = NSBluetoothSettingsDetailView(title: "meldungen_meldung_title".ub_localized, subText: "meldungen_meldung_text".ub_localized, image: UIImage(named: "ic-info")!, titleColor: .white, subtextColor: .white, backgroundColor: .ns_primary, additionalText: "meldungen_meldung_more_button".ub_localized)
 
     private let infectedView = NSBluetoothSettingsDetailView(title: "meldungen_infected_title".ub_localized, subText: "meldungen_infected_text".ub_localized, image: UIImage(named: "ic-info")!, titleColor: .white, subtextColor: .white, backgroundColor: .ns_primary, additionalText: "meldungen_meldung_more_button".ub_localized)
 
@@ -37,14 +37,14 @@ class NSMeldungView: NSModuleBaseView {
     override func sectionViews() -> [UIView] {
         var views = [UIView]()
 
-        switch uiState.meldung {
-        case .noMeldung:
-            views.append(noMeldungenView)
+        switch uiState.message {
+        case .noMessage:
+            views.append(noMessagesView)
             if uiState.pushProblem {
                 views.append(noPushView)
             }
         case .exposed:
-            views.append(meldungenView)
+            views.append(messagesView)
         case .infected:
             views.append(infectedView)
         }
@@ -55,8 +55,8 @@ class NSMeldungView: NSModuleBaseView {
     override func updateLayout() {
         super.updateLayout()
 
-        setCustomSpacing(NSPadding.medium, after: noMeldungenView)
-        setCustomSpacing(NSPadding.medium, after: meldungenView)
+        setCustomSpacing(NSPadding.medium, after: noMessagesView)
+        setCustomSpacing(NSPadding.medium, after: messagesView)
         setCustomSpacing(NSPadding.medium, after: infectedView)
     }
 }

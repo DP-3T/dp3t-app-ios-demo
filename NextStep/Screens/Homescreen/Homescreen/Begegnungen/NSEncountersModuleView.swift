@@ -8,8 +8,8 @@ import DP3TSDK
 import SnapKit
 import UIKit
 
-class NSBegegnungenModuleView: NSModuleBaseView {
-    var uiState: NSUIStateModel.Homescreen.Begegnungen.Tracing = .active {
+class NSEncountersModuleView: NSModuleBaseView {
+    var uiState: NSUIStateModel.Homescreen.Encounters.Tracing = .active {
         didSet { updateUI() }
     }
 
