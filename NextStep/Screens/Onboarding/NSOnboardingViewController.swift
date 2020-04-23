@@ -62,6 +62,8 @@ class NSOnboardingViewController: NSViewController {
         guard step >= 0, step < stepViewControllers.count else { return }
         let isLast = step == stepViewControllers.count - 1
 
+        let isAccessibilityElement = step == stepViewControllers.count - 2
+        pageControl.isAccessibilityElement = !isAccessibilityElement
         if isLast {
             finishButton.alpha = 0
             finishButton.transform = CGAffineTransform(translationX: 300, y: 0)
@@ -131,6 +133,7 @@ class NSOnboardingViewController: NSViewController {
         pageControl.pageIndicatorTintColor = .ns_text
         pageControl.numberOfPages = stepViewControllers.count
         pageControl.currentPage = 0
+        pageControl.addTarget(self, action: #selector(didChangePageControl), for: .valueChanged)
         pageControl.isUserInteractionEnabled = false
 
         view.addSubview(finishButton)
@@ -166,6 +169,9 @@ class NSOnboardingViewController: NSViewController {
         }
     }
 
+    @objc private func didChangePageControl() {
+        setOnboardingStep(pageControl.currentPage, animated: true)
+    }
     @objc private func didSwipe(recognizer: UISwipeGestureRecognizer) {
         switch recognizer.direction {
         case .left:
