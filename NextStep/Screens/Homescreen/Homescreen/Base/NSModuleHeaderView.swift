@@ -36,6 +36,7 @@ class NSModuleHeaderView: UIView {
         addSubview(titleLabel)
         addSubview(rightCaretImageView)
 
+        leftIconImageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
         leftIconImageView.ub_setContentPriorityRequired()
         leftIconImageView.snp.makeConstraints { make in
             make.centerY.equalToSuperview()

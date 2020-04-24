@@ -37,6 +37,7 @@ class UBLabel<T: UBLabelType>: UILabel {
         self.textColor = textColor == nil ? self.type.textColor : textColor
         self.textAlignment = textAlignment
         self.numberOfLines = numberOfLines
+        adjustsFontForContentSizeCategory = true
     }
 
     required init?(coder _: NSCoder) {

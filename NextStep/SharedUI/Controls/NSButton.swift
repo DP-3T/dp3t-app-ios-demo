@@ -114,4 +114,20 @@ class NSButton: UBButton {
             backgroundColor = isEnabled ? style.backgroundColor : UIColor.black.withAlphaComponent(0.15)
         }
     }
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        titleLabel?.preferredMaxLayoutWidth = titleLabel?.frame.size.width ?? frame.width
+    }
+
+    override var intrinsicContentSize: CGSize {
+        guard var size = titleLabel?.intrinsicContentSize else {
+            return super.intrinsicContentSize
+        }
+
+        size.height += contentEdgeInsets.bottom + contentEdgeInsets.top
+        size.width += contentEdgeInsets.left + contentEdgeInsets.right
+
+        return size
+    }
 }

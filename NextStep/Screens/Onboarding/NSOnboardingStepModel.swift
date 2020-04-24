@@ -11,4 +11,5 @@ struct NSOnboardingStepModel {
     let foregroundImage: UIImage
     let title: String
     let text: String
+    let continueButtonTitle: String?
 }

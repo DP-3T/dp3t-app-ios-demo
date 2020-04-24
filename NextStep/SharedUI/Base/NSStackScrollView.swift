@@ -11,7 +11,7 @@ class NSStackScrollView: UIView {
     let stackView = UIStackView()
     let scrollView = UIScrollView()
 
-    init(axis: NSLayoutConstraint.Axis = .vertical, spacing: CGFloat = 0) {
+    init(axis: NSLayoutConstraint.Axis = .vertical, alignment: UIStackView.Alignment = .fill, spacing: CGFloat = 0) {
         super.init(frame: .zero)
 
         switch axis {
@@ -47,6 +47,7 @@ class NSStackScrollView: UIView {
         }
 
         stackView.axis = axis
+        stackView.alignment = alignment
         stackView.spacing = spacing
         stackViewContainer.addSubview(stackView)
 

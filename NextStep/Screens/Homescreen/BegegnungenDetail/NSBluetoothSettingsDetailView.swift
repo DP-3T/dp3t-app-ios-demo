@@ -75,7 +75,7 @@ class NSBluetoothSettingsDetailView: UIView {
         addSubview(imageView)
 
         imageView.ub_setContentPriorityRequired()
-
+        imageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
         imageView.snp.makeConstraints { make in
             make.left.equalToSuperview().inset(NSPadding.medium * 2.0)
             make.top.equalToSuperview().inset(topBottomPadding)

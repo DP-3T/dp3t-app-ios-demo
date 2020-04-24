@@ -16,15 +16,19 @@ public enum NSLabelType: UBLabelType {
     case uppercaseBold
 
     public var font: UIFont {
+        var font: UIFont!
+
         switch self {
-        case .title: return UIFont(name: "Inter-Bold", size: 28.0)!
-        case .subtitle: return UIFont(name: "Inter-Bold", size: 24.0)!
-        case .text: return UIFont(name: "Inter-Regular", size: 16.0)!
-        case .smallBold: return UIFont(name: "Inter-Bold", size: 12.0)!
-        case .textSemiBold: return UIFont(name: "Inter-SemiBold", size: 16.0)!
-        case .button: return UIFont(name: "Inter-Bold", size: 18.0)!
-        case .uppercaseBold: return UIFont(name: "Inter-Bold", size: 16.0)!
+        case .title: font = UIFont(name: "Inter-Bold", size: 28.0)!
+        case .subtitle: font = UIFont(name: "Inter-Bold", size: 24.0)!
+        case .text: font = UIFont(name: "Inter-Regular", size: 16.0)!
+        case .smallBold: font = UIFont(name: "Inter-Bold", size: 12.0)!
+        case .textSemiBold: font = UIFont(name: "Inter-SemiBold", size: 16.0)!
+        case .button: font = UIFont(name: "Inter-Bold", size: 18.0)!
+        case .uppercaseBold: font = UIFont(name: "Inter-Bold", size: 16.0)!
         }
+
+        return scaledMetricFont(font)
     }
 
     public var textColor: UIColor {
@@ -71,6 +75,10 @@ public enum NSLabelType: UBLabelType {
 
     public var lineBreakMode: NSLineBreakMode {
         .byTruncatingTail
+    }
+
+    private func scaledMetricFont(_ font: UIFont) -> UIFont {
+        UIFontMetrics.default.scaledFont(for: font)
     }
 }
 

@@ -12,11 +12,8 @@ class NSOnboardingPermissionsViewController: NSOnboardingContentViewController {
         init(text: String) {
             super.init(frame: .zero)
 
-            snp.makeConstraints { make in
-                make.height.equalTo(44)
-            }
-
             let icon = UIImageView(image: #imageLiteral(resourceName: "ic-check"))
+            icon.adjustsImageSizeForAccessibilityContentSizeCategory = true
             addSubview(icon)
             icon.snp.makeConstraints { make in
                 make.leading.centerY.equalToSuperview()
@@ -27,7 +24,7 @@ class NSOnboardingPermissionsViewController: NSOnboardingContentViewController {
             label.text = text
             addSubview(label)
             label.snp.makeConstraints { make in
-                make.trailing.centerY.equalToSuperview()
+                make.top.trailing.bottom.equalToSuperview()
                 make.leading.equalTo(icon.snp.trailing).offset(NSPadding.medium)
             }
         }

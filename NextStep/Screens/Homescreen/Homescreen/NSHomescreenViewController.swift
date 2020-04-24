@@ -107,7 +107,8 @@ class NSHomescreenViewController: NSViewController {
         let buttonContainer = UIView()
         buttonContainer.addSubview(informButton)
         informButton.snp.makeConstraints { make in
-            make.top.bottom.centerX.equalToSuperview()
+            make.top.bottom.equalToSuperview()
+            make.leading.trailing.equalToSuperview().inset(NSPadding.medium)
         }
         stackScrollView.addArrangedView(buttonContainer)
         stackScrollView.addSpacerView(NSPadding.large)
@@ -120,7 +121,8 @@ class NSHomescreenViewController: NSViewController {
         let debugScreenContainer = UIView()
         debugScreenContainer.addSubview(debugScreenButton)
         debugScreenButton.snp.makeConstraints { make in
-            make.top.bottom.centerX.equalToSuperview()
+            make.top.bottom.equalToSuperview()
+            make.leading.trailing.equalToSuperview().inset(NSPadding.medium)
         }
 
         debugScreenButton.touchUpCallback = { [weak self] in

@@ -55,6 +55,7 @@ class UBButton: UIButton {
         backgroundColor = UIColor.clear
 
         titleLabel?.numberOfLines = 0
+        titleLabel?.adjustsFontForContentSizeCategory = true
         titleLabel?.textAlignment = .center
 
         highlightView.alpha = 0

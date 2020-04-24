@@ -13,6 +13,8 @@ class NSOnboardingStepViewController: NSOnboardingContentViewController {
     private let titleLabel = NSLabel(.subtitle, textColor: .ns_primary)
     private let textLabel = NSLabel(.text)
 
+    let continueButton = NSButton(title: "onboarding_finish_button".ub_localized)
+
     private let model: NSOnboardingStepModel
 
     init(model: NSOnboardingStepModel) {
@@ -32,13 +34,16 @@ class NSOnboardingStepViewController: NSOnboardingContentViewController {
         addArrangedView(foregroundImageView, spacing: (useLessSpacing ? 1.0 : 1.5) * NSPadding.large)
 
         addArrangedView(titleLabel, spacing: (useLessSpacing ? 1.0 : 1.0) * NSPadding.large)
-        addArrangedView(textLabel)
+        addArrangedView(textLabel, spacing: NSPadding.large)
+
+        addArrangedView(continueButton)
 
         foregroundImageView.contentMode = .scaleAspectFit
         foregroundImageView.snp.makeConstraints { make in
             make.height.equalTo(self.useSmallerImages ? 150 : 220)
         }
 
+        headingLabel.textAlignment = .center
         titleLabel.textAlignment = .center
         textLabel.textAlignment = .center
     }
@@ -48,5 +53,7 @@ class NSOnboardingStepViewController: NSOnboardingContentViewController {
         foregroundImageView.image = model.foregroundImage
         titleLabel.text = model.title
         textLabel.text = model.text
+        continueButton.isHidden = model.continueButtonTitle == nil
+        continueButton.setTitle(model.title, for: .normal)
     }
 }
