@@ -5,66 +5,12 @@ platform :ios do
   desc "Sets up signing"
   lane :sign_and_build do
 
-  create_keychain(
-    name: "githubactionci",
-    password: "githubkeychain",
-    default_keychain: true,
-    unlock: true
-  )
-
-  match(
-    type: "appstore",
-    readonly: is_ci,
-    keychain_name: "githubactionci",
-    keychain_password: "githubkeychain"
-  )
-
-  update_code_signing_settings(
-    use_automatic_signing: false,
-    path: ENV["XCODE_PROJ"],
-    profile_name: ENV["sigh_"+ENV["APP_IDENTIFIER"] +"_appstore_profile-name"],
-    code_sign_identity: "iPhone Distribution",
-    bundle_identifier: ENV["APP_IDENTIFIER"] 
-  )
-
-  build_number = getCustomBundleVersion()
-
-  add_badge(shield: ENV["BADGE_TITLE"]+"-blue", no_badge: true) unless ENV["SKIP_ADD_BADGE"]
-
-  increment_build_number(
-    build_number: build_number 
-  )
-
   build_app(
-    scheme: ENV["APP_SCHEME"]
+    scheme: ENV["APP_SCHEME"],
+    skip_codesigning: true,
+    skip_archive: true,
+    skip_package_ipa: true
   )
-  end
-
-  desc "Push a new build to Testflight"
-  lane :upload_and_distribute do
-
-  gitlog = changelog_from_git_commits(commits_count: 10, pretty: "• %s", merge_commit_filtering: 'exclude_merges')
-  branch_name = ENV["GITHUB_REF"] || "unknown"
-  changelog = "Branch: " + branch_name + "\n" + gitlog
-
-  pilot(
-    ipa: ENV["IPA_OUTPUT_PATH"], 
-    changelog: changelog,
-    groups: ["Ubique"],
-    beta_app_review_info: {
-      contact_email: ENV["REVIEW_CONTACT_EMAIL"],
-      contact_first_name: "Nicolas",
-      contact_last_name: "Maerki",
-      contact_phone: ENV["REVIEW_CONTACT_PHONE"]
-    }
-  )
-  end
-
-  def getCustomBundleVersion()
-    # Produces Unique Build Numbers using current timestamp
-    datestring_now = DateTime.now.strftime('%y%m%d.%H%M')
-    bundle_version = "#{datestring_now}.#{ENV['GITHUB_RUN_NUMBER']}"
-    return bundle_version
   end
 end
 
