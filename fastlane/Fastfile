@@ -8,6 +8,7 @@ platform :ios do
   build_app(
     scheme: ENV["APP_SCHEME"],
     skip_codesigning: true,
+    skip_archive: true,
     skip_package_ipa: true
   )
   end

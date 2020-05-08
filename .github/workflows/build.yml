@@ -19,15 +19,7 @@ jobs:
     
     - name: Sign and build
       env:
-        MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
-        MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-        MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
-        MATCH_GIT_BRANCH: ${{ secrets.MATCH_GIT_BRANCH }}
         APP_SCHEME: "Release-Prod"
-        APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER_PROD }}
-        FASTLANE_TEAM_ID: ${{ secrets.TEAM_ID }}
-        SKIP_ADD_BADGE: true
-        BADGE_TITLE: ""
       run: bundle exec fastlane sign_and_build
 
   build_release_dev:
@@ -44,13 +36,5 @@ jobs:
 
     - name: Sign and build
       env:
-        MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
-        MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-        MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
-        MATCH_GIT_BRANCH: ${{ secrets.MATCH_GIT_BRANCH }}
         APP_SCHEME: "Release-Internal"
-        APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER_PROD }}
-        FASTLANE_TEAM_ID: ${{ secrets.TEAM_ID }}
-        SKIP_ADD_BADGE: true
-        BADGE_TITLE: ""
       run: bundle exec fastlane sign_and_build
