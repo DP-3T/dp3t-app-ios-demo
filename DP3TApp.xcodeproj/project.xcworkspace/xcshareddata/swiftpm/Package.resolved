@@ -1,0 +1,106 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Cryptor",
+        "repositoryURL": "https://github.com/IBM-Swift/BlueCryptor.git",
+        "state": {
+          "branch": null,
+          "revision": "12d2bf3ec7207ec3cd004b9582f69ef5fae1da3b",
+          "version": "1.0.32"
+        }
+      },
+      {
+        "package": "CryptorECC",
+        "repositoryURL": "https://github.com/IBM-Swift/BlueECC.git",
+        "state": {
+          "branch": null,
+          "revision": "73f362cb0d9c5f1fd0089240d7b293cd2bff18db",
+          "version": "1.2.5"
+        }
+      },
+      {
+        "package": "CryptorRSA",
+        "repositoryURL": "https://github.com/IBM-Swift/BlueRSA.git",
+        "state": {
+          "branch": null,
+          "revision": "8ea901f2582296837d88f882b0fa5a0601759598",
+          "version": "1.0.35"
+        }
+      },
+      {
+        "package": "DP3TSDK",
+        "repositoryURL": "https://github.com/DP-3T/dp3t-sdk-ios.git",
+        "state": {
+          "branch": "develop",
+          "revision": "41bc058fa82956cb82a99dac640d04776d670572",
+          "version": null
+        }
+      },
+      {
+        "package": "KituraContracts",
+        "repositoryURL": "https://github.com/IBM-Swift/KituraContracts.git",
+        "state": {
+          "branch": null,
+          "revision": "a30e2fb79e926672776a05ec6b919c239870a221",
+          "version": "1.2.1"
+        }
+      },
+      {
+        "package": "LoggerAPI",
+        "repositoryURL": "https://github.com/IBM-Swift/LoggerAPI.git",
+        "state": {
+          "branch": null,
+          "revision": "3357dd9526cdf9436fa63bb792b669e6efdc43da",
+          "version": "1.9.0"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "SQLite.swift",
+        "repositoryURL": "https://github.com/stephencelis/SQLite.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "0a9893ec030501a3956bee572d6b4fdd3ae158a1",
+          "version": "0.12.2"
+        }
+      },
+      {
+        "package": "SwiftJWT",
+        "repositoryURL": "https://github.com/IBM-Swift/Swift-JWT.git",
+        "state": {
+          "branch": null,
+          "revision": "0d435423d12e61c0d14adb6d04396c08a6a650f1",
+          "version": "3.6.1"
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "74d7b91ceebc85daf387ebb206003f78813f71aa",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "SwiftProtobuf",
+        "repositoryURL": "https://github.com/apple/swift-protobuf.git",
+        "state": {
+          "branch": null,
+          "revision": "7790acf0a81d08429cb20375bf42a8c7d279c5fe",
+          "version": "1.8.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

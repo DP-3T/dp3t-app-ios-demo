@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "illu-code-wichtiger-hinweis.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "illu-code-wichtiger-hinweis@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "illu-code-wichtiger-hinweis@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

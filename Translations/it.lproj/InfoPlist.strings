@@ -1,3 +1,3 @@
-"CFBundleDisplayName" = "Next Step";
-"NSBluetoothPeripheralUsageDescription" = "Begegnungen werden über Bluetooth energiesparend im Hintergrund erkannt.";
-"NSBluetoothAlwaysUsageDescription" = "Begegnungen werden über Bluetooth energiesparend im Hintergrund erkannt.";
+"CFBundleDisplayName" = "dp3t-app";
+"NSBluetoothPeripheralUsageDescription" = "Gli incontri vengono riconosciuti tramite Bluetooth in background risparmiando energia.";
+"NSBluetoothAlwaysUsageDescription" = "Gli incontri vengono riconosciuti tramite Bluetooth in background risparmiando energia.";

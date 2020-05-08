@@ -1,3 +1,3 @@
-"CFBundleDisplayName" = "Next Step";
-"NSBluetoothPeripheralUsageDescription" = "Les rencontres sont reconnues via Bluetooth, en arrière-plan de façon économes en énergie";
-"NSBluetoothAlwaysUsageDescription" = "Les rencontres sont reconnues via Bluetooth, en arrière-plan de façon économes en énergie";
+"CFBundleDisplayName" = "dp3t-app";
+"NSBluetoothPeripheralUsageDescription" = "Les contacts sont détectés en arrière-plan via Bluetooth (faible consommation).";
+"NSBluetoothAlwaysUsageDescription" = "Les contacts sont détectés en arrière-plan via Bluetooth (faible consommation).";

@@ -1,0 +1,56 @@
+name: build
+
+on:
+  push:
+    branches: '**'
+
+jobs:
+  build_release_prod:
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Switch to Xcode 11.4.1
+      run: sudo xcode-select --switch /Applications/Xcode_11.4.app
+    
+    - name: Sets up bundler
+      run: bundle update --bundler
+    
+    - name: Sign and build
+      env:
+        MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
+        MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+        MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
+        MATCH_GIT_BRANCH: ${{ secrets.MATCH_GIT_BRANCH }}
+        APP_SCHEME: "Release-Prod"
+        APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER_PROD }}
+        FASTLANE_TEAM_ID: ${{ secrets.TEAM_ID }}
+        SKIP_ADD_BADGE: true
+        BADGE_TITLE: ""
+      run: bundle exec fastlane sign_and_build
+
+  build_release_dev:
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Switch to Xcode 11.4.1
+      run: sudo xcode-select --switch /Applications/Xcode_11.4.app
+
+    - name: Sets up bundler
+      run: bundle update --bundler
+
+    - name: Sign and build
+      env:
+        MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
+        MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+        MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
+        MATCH_GIT_BRANCH: ${{ secrets.MATCH_GIT_BRANCH }}
+        APP_SCHEME: "Release-Internal"
+        APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER_PROD }}
+        FASTLANE_TEAM_ID: ${{ secrets.TEAM_ID }}
+        SKIP_ADD_BADGE: true
+        BADGE_TITLE: ""
+      run: bundle exec fastlane sign_and_build
