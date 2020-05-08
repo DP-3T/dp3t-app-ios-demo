@@ -14,13 +14,10 @@ jobs:
     - name: Switch to Xcode 11.4.1
       run: sudo xcode-select --switch /Applications/Xcode_11.4.app
     
-    - name: Sets up bundler
-      run: bundle update --bundler
-    
     - name: Sign and build
       env:
         APP_SCHEME: "Release-Prod"
-      run: bundle exec fastlane sign_and_build
+      run: fastlane sign_and_build
 
   build_release_dev:
     runs-on: macOS-latest
@@ -31,10 +28,7 @@ jobs:
     - name: Switch to Xcode 11.4.1
       run: sudo xcode-select --switch /Applications/Xcode_11.4.app
 
-    - name: Sets up bundler
-      run: bundle update --bundler
-
     - name: Sign and build
       env:
         APP_SCHEME: "Release-Internal"
-      run: bundle exec fastlane sign_and_build
+      run: fastlane sign_and_build
