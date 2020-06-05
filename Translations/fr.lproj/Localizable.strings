@@ -372,7 +372,7 @@
 "onboarding_privacy_text1" = "La communication entre les appareils est anonyme.";
 
 /*Onboarding Privacy: Text*/
-"onboarding_privacy_text2" = "Toutes les données sont cryptées et uniquement sauvegardées localement sur l'appareil.";
+"onboarding_privacy_text2" = "Toutes les données sont chiffrées et uniquement sauvegardées localement sur l'appareil.";
 
 /*Onboarding Begegnungen: Titel oben*/
 "onboarding_begegnungen_heading" = "Que fait l'application ?";
@@ -666,7 +666,7 @@
 "begegnung_detail_faq2_title" = "Mes données sont-elles en sécurité?";
 
 /*Begegnungen: FAQ Text*/
-"begegnung_detail_faq2_text" = "Lors d'un contact, seul un code crypté est échangé.\n\nCe code est enregistré localement dans les appareils et effacé au bout de 21 jours.";
+"begegnung_detail_faq2_text" = "Lors d'un contact, seul un code chiffré est échangé.\n\nCe code est enregistré localement dans les appareils et effacé au bout de 21 jours.";
 
 /*Begegnungen: FAQ Titel*/
 "begegnungen_detail_faq3_title" = "Bluetooth doit-il toujours être activé ?";
